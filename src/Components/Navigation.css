@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap");
+
+@font-face {
+  font-family: "Gordita";
+  src: url(../../gordita-cufonfonts/Gordita\ Regular.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-nav {
+  display: flex;
+  margin-top: 60px;
+  margin: 20px 28px;
+  justify-content: space-between;
+}
+
+.top-nav-left,
+.top-nav-right {
+  display: flex;
+}
+
+.logo {
+  font-size: 1.2rem;
+  display: flex;
+  font-family: "Alike Angular", serif;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h3 {
+  margin-left: 5px;
+}
+.second-circle {
+  margin-left: -15px;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.search input {
+  border: none;
+  background-color: #fafafa;
+  padding: 15px 20px;
+  background-image: url(../Assets/search.svg);
+  background-repeat: no-repeat;
+  text-indent: 20px;
+  background-position: 15px 15px;
+  border-radius: 7px 0px 0px 7px;
+  font-family: "Gordita", sans-serif;
+  max-width: 300px;
+}
+
+.search select {
+  /* border: none; */
+  border: 1px solid #fafafa;
+  background-color: #fafafa;
+  /* padding: 15px 20px; */
+  border-width: 14px 20px 14px 20px;
+  font-family: "Gordita", sans-serif;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.top-nav-right ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+.top-nav-right ul li {
+  list-style: none;
+  padding: 20px;
+  font-family: "Gordita", sans-serif;
+}
+
+.top-nav-right a {
+  color: #00bf58;
+  padding: 20px;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: "Gordita", sans-serif;
+}
+
+.top-nav-right button {
+  border: none;
+  color: white;
+  background-color: #00bf58;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: flex;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Gordita", sans-serif;
+}
+
+.nav-under {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 15px;
+}
+
+.listOfOptions ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.listOfOptions ul li {
+  list-style: none;
+  color: #536159;
+  font-family: "Gordita", sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* .listOfOptions ul li select {
+  border: none;
+  color: #536159;
+  font-family: "Gordita", sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.listOfOptions ul .more svg {
+  margin-left: 6px;
+}
