@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Gordita";
+  src: url(../../gordita-cufonfonts/Gordita\ Regular.otf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+.Header {
+  display: flex;
+}
+
+.leftSide {
+  margin-left: 70px;
+  margin-top: 100px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.leftSide p {
+  color: #00ba56;
+  font-family: "Gordita", sans-serif;
+}
+
+.leftSide h1 {
+  color: #005025;
+  font-family: "EB Garamond", serif;
+  font-size: 3.8rem;
+}
+
+.leftSide h1 span {
+  display: block;
+}
+
+.leftSide h4 {
+  padding-top: 20px;
+  font-family: "Gordita", sans-serif;
+  line-height: 2rem;
+}
+
+.leftSide button {
+  border: none;
+  color: white;
+  background-color: #00bf58;
+  padding: 5px 30px;
+  border-radius: 50px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Gordita", sans-serif;
+  margin-top: 40px;
+  width: fit-content;
+}
+
+.trusted img {
+  width: 60px;
+}
+
+.trusted .google {
+  width: 30px;
+}
+
+.rightSide {
+  width: 60%;
+}
+
+.rightSide img {
+  width: 100%;
+}
+
+.trusted {
+  display: flex;
+  /* flex-direction: column; */
+  position: absolute;
+  bottom: 70px;
+}
+
+.trusted p {
+  margin-top: 7px;
+  padding-right: 20px;
+}
