@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+.navigation {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 .top-nav {
   display: flex;
   margin-top: 60px;

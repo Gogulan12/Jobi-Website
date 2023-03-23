@@ -1,0 +1,24 @@
+.trendingSkillsList {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.bottom-trending-list li {
+  margin-top: 15px;
+  list-style: none;
+  font-family: "Gordita", sans-serif;
+  font-size: 14px;
+}
+
+.trendingSkillsList h3 {
+  margin-bottom: 25px;
+  font-family: "Gordita", sans-serif;
+}
+
+.trendingSkillsList .trend-main {
+  color: #00bf58;
+}

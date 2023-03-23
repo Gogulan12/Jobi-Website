@@ -1,0 +1,27 @@
+.trending-first {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.trending-Title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending-Title h2 {
+  color: #005025;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+}
+
+.trending-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trending-button button {
+  padding: 10px;
+  color: #005025;
+  /* background-color: white; */
+}

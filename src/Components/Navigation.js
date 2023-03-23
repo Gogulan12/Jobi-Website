@@ -3,7 +3,7 @@ import "./Navigation.css";
 
 export default function Navigation() {
   return (
-    <div>
+    <div className="navigation">
       <section className="top-nav">
         <div className="top-nav-left">
           <div className="logo">

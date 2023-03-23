@@ -6,11 +6,19 @@ import phone from "../Assets/phone.svg";
 import edit from "../Assets/edit.svg";
 import account from "../Assets/accounting.svg";
 
+import "./Trending.css";
+
 export default function Trending() {
   return (
     <div>
-      <section className="first">
-        <h2>Trending Services</h2>
+      <section className="trending-first">
+        <div className="trending-Title">
+          <h2>Trending Services</h2>
+          <div className="trending-button">
+            <button>&lt;</button>
+            <button>&gt;</button>
+          </div>
+        </div>
         <div className="image-list">
           <div>
             <p>WordPress Development.</p>

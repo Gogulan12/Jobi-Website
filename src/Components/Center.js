@@ -1,6 +1,7 @@
 import React from "react";
 import person from "../Assets/person-center.jpg";
 import arrow from "../Assets/arrow.svg";
+import "./Center.css";
 
 export default function Center() {
   return (

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Collaboration.css";
+
 export default function Collaboration() {
   return (
     <div>
@@ -70,6 +72,55 @@ export default function Collaboration() {
         <div>
           <h3>100+</h3>
           <p>Leading Brands</p>
+        </div>
+      </div>
+
+      <div className="trendingSkillsList">
+        <div className="trendingskills">
+          <h3 className="trend-main">Trending Skills</h3>
+          <ul className="bottom-trending-list">
+            <li>Blockchain</li>
+            <li>Node.js</li>
+            <li>HR consulting</li>
+            <li>Vue.js</li>
+            <li>Microsoft Power BI</li>
+            <li>React.js</li>
+            <li>Videographers</li>
+          </ul>
+        </div>
+        <div className="topskills">
+          <h3>Top Skills</h3>
+          <ul className="bottom-trending-list">
+            <li>Full Consultation</li>
+            <li>Code Review</li>
+            <li>Staff Augmentation</li>
+            <li>Support</li>
+            <li>Video Editors</li>
+            <li>Data Entry Specialists</li>
+            <li>Data Analyst</li>
+          </ul>
+        </div>
+        <div className="topusa">
+          <h3>Top in USA</h3>
+          <ul className="bottom-trending-list">
+            <li>Technical Support</li>
+            <li>Accountants</li>
+            <li>Web Designers in US</li>
+            <li>Customer identity</li>
+            <li>Data entry</li>
+          </ul>
+        </div>
+        <div className="projectcatalog">
+          <h3>Project Catalog</h3>
+          <ul className="bottom-trending-list">
+            <li>Mircosites</li>
+            <li>Marketing Automation</li>
+            <li>SEO & SMM</li>
+            <li>Lead Generation</li>
+            <li>Article Writing Services</li>
+            <li>SEO Services</li>
+            <li>Translation Services</li>
+          </ul>
         </div>
       </div>
     </div>
