@@ -53,6 +53,7 @@
   font-family: "Gordita", sans-serif;
   margin-top: 40px;
   width: fit-content;
+  margin-bottom: 50px;
 }
 
 .trusted img {
@@ -74,8 +75,10 @@
 .trusted {
   display: flex;
   /* flex-direction: column; */
-  position: absolute;
-  bottom: 70px;
+  /* position: absolute;
+  bottom: 70px; */
+  margin-top: auto;
+  margin-bottom: 15%;
 }
 
 .trusted p {

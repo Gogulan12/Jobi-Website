@@ -4,66 +4,104 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <div>
-      <main>
-        <div className="left">
-          <h2>Most Complete Job portal.</h2>
-          <p>Sign up and start find you job or talents.</p>
-        </div>
-        <div className="right">
-          <button>Looking for job?</button>
-          <button>Post a Job</button>
-        </div>
-      </main>
+      <div className="top-section">
+        <main className="top-footer">
+          <div className="left">
+            <h2>Most Complete job portal.</h2>
+            <p>Sign up and start find you job or talents.</p>
+          </div>
+          <div className="right">
+            <a href="#" className="look">
+              Looking for job?
+            </a>
+            <a href="#" className="post">
+              Post a Job
+            </a>
+          </div>
+        </main>
 
-      <section className="lists">
-        <h3>Jobi</h3>
-        <div className="Products">
-          <h4>Products</h4>
-          <ul>
-            <li>Take the tour</li>
-            <li>Live chat</li>
-            <li>Self-service</li>
-            <li>Mobile</li>
-            <li>Collaboration</li>
-            <li>Review</li>
-          </ul>
-        </div>
-        <div className="Links">
-          <h4>Links</h4>
-          <ul>
-            <li>Pricing</li>
-            <li>About us</li>
-            <li>Careers</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div className="Legal">
-          <h4>Legal</h4>
-          <ul>
-            <li>Terms of use</li>
-            <li>Terms & conditions</li>
-            <li>Privacy</li>
-            <li>Cookie policy</li>
-          </ul>
-        </div>
-        <div className="Newsletter">
-          <h4>Newsletter</h4>
-          <p>Join & get important new regularly</p>
-          <input type="text" />
-          <button>Send</button>
-          <p>We only send interesting and relevant emails.</p>
-        </div>
-      </section>
+        <section className="lists">
+          <div className="footer-logo">
+            <svg
+              width="28"
+              height="29"
+              viewBox="0 0 28 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="13.95"
+                cy="14.25"
+                r="13.95"
+                fill="#00D462"
+                fill-opacity="0.34"
+              />
+            </svg>
+
+            <svg
+              className="second-circle"
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="14.45" cy="14.25" r="13.95" fill="#00D462" />
+            </svg>
+            <h3>jobi</h3>
+          </div>
+          <div className="Products">
+            <h4>Products</h4>
+            <ul className="footer-lists">
+              <li>Take the tour</li>
+              <li>Live chat</li>
+              <li>Self-service</li>
+              <li>Mobile</li>
+              <li>Collaboration</li>
+              <li>Review</li>
+            </ul>
+          </div>
+          <div className="Links">
+            <h4>Links</h4>
+            <ul className="footer-lists">
+              <li>Pricing</li>
+              <li>About us</li>
+              <li>Careers</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div className="Legal">
+            <h4>Legal</h4>
+            <ul className="footer-lists">
+              <li>Terms of use</li>
+              <li>Terms & conditions</li>
+              <li>Privacy</li>
+              <li>Cookie policy</li>
+            </ul>
+          </div>
+          <div className="newsletter">
+            <h4>Newsletter</h4>
+            <p className="joinLabel">Join & get important new regularly</p>
+            <div className="newsletter-wrapper">
+              <input type="text" placeholder="Enter your email" />
+              <button>Send</button>
+            </div>
+            <p className="newsletter-email-message">
+              We only send interesting and relevant emails.
+            </p>
+          </div>
+        </section>
+      </div>
 
       <footer>
-        <div>
+        <div className="bottom-links">
           <p>Privacy & Terms.</p>
           <p>Contact us</p>
         </div>
-        <div>
+        <div className="copyright">
           <p>Copyright @2022 jobi inc.</p>
         </div>
-        <div>
+        <div className="icons">
           <svg
             width="10"
             height="18"
