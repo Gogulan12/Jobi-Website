@@ -6,7 +6,7 @@ import "./Center.css";
 export default function Center() {
   return (
     <div>
-      <section className="search">
+      <section className="center-search">
         <div className="left">
           <div>
             <input type="text" placeholder="Designer, Brand, Logo designer" />
@@ -104,30 +104,32 @@ export default function Center() {
       <section className="posterOne">
         <div className="left">
           <h4>Business Solution</h4>
-          <h2>Get quick solutions for you business.</h2>
-          <p>
-            A full suite of hybrid workforce management tools are yours to use,
-            as well as access to our top 1% of talent.
+          <h2>
+            Get quick <br />
+            Solutions for your <br />
+            <span>business.</span>
+          </h2>
+          <p className="posterone-paragraph">
+            A full suite of hybrid workforce management tools are yours <br />
+            to use, as well as access to our top 1% of talent.
           </p>
           <ul>
             <li>
-              <h2>30k+</h2>
+              <h3>30k+</h3>
               <p>Worldwide Client</p>
             </li>
             <li>
-              <h2>3%</h2>
+              <h3>3%</h3>
               <p>Top Talents</p>
             </li>
             <li>
-              <h2>7mil</h2>
+              <h3>7mil</h3>
               <p>Doller Payout</p>
             </li>
           </ul>
           <button>Explore Jobi business</button>
         </div>
-        <div className="right">
-          <img src={person} alt="" />
-        </div>
+        <div className="right">{/* <img src={person} alt="" /> */}</div>
       </section>
       <section className="posterTwo">
         <div className="main">

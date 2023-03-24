@@ -1,6 +1,97 @@
-.posterOne .right img {
-  width: 300px;
+/* ////////////////////////SEARCH SECTION////////////////////////////// */
+
+.center-search {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 200px;
+  justify-content: space-between;
 }
+
+.center-search .left,
+.center-search .right {
+  width: 50%;
+}
+
+/* ////////////////////////////POSTER ONE/////////////////////////////// */
+
+.posterOne {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 100px;
+  /* height: 630px; */
+  margin-top: 200px;
+}
+
+.posterOne .left {
+  background-color: #614137;
+  padding: 45px;
+  width: 55%;
+}
+
+.posterOne .left h4 {
+  color: #00bf58;
+  font-family: "Gordita", sans-serif;
+}
+
+.posterOne .left h2 {
+  color: white;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 3.5rem;
+  line-height: 60px;
+}
+.posterOne .left h2 span {
+  color: #dfa79c;
+}
+
+.posterOne .left .posterone-paragraph {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+  width: 80%;
+}
+
+.posterOne .left ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.posterOne .left ul li {
+  list-style: none;
+}
+
+.posterOne .left ul li h3 {
+  color: white;
+  font-family: "Gordita", sans-serif;
+}
+
+.posterOne .left ul li p {
+  color: rgba(255, 255, 255, 0.39);
+}
+
+.posterOne .left button {
+  border: none;
+  background-color: #00bf58;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Gordita", sans-serif;
+  margin-bottom: 30px;
+}
+
+.posterOne .right {
+  background-image: url("../Assets/person-center.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 45%;
+}
+
+/* ////////////////////////////POSTER TWO/////////////////////////////// */
 
 .posterTwo {
   margin: 0 auto;
@@ -21,7 +112,7 @@
   bottom: 0;
   background-image: linear-gradient(
     270deg,
-    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0)
   );
   opacity: 1;
