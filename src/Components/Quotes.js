@@ -9,8 +9,8 @@ import "./Quote.css";
 
 export default function Quotes() {
   return (
-    <div>
-      <div>
+    <div className="quoteSection">
+      <div className="left-arrow">
         <svg
           width="11"
           height="18"
@@ -25,7 +25,7 @@ export default function Quotes() {
           />
         </svg>
       </div>
-      <div>
+      <div className="quote-center">
         <svg
           width="92"
           height="65"
@@ -43,16 +43,33 @@ export default function Quotes() {
           />
         </svg>
 
-        <h2>Check what these clients have to say.</h2>
+        <h2>
+          Check what these clients <br />
+          have to say.
+        </h2>
         <h3>
-          "Very easy to set-up. I had no experience with hosting before signing
-          up with HostGator but they've made everthing seem simple."
+          "Very easy to set-up. I had no experience with <br /> hosting before
+          signing up with HostGator but they've <br /> made everthing seem
+          simple."
         </h3>
-        <p>
-          Rashed ka.<span>Italy</span>
-        </p>
+        <div className="quote-writer">
+          <svg
+            className="quote-line"
+            width="31"
+            height="3"
+            viewBox="0 0 31 3"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 1.00146H31" stroke="black" stroke-width="2" />
+          </svg>
 
-        <div>
+          <p>
+            Rashed ka. <span>Italy</span>
+          </p>
+        </div>
+
+        <div className="quote-images">
           <img className="portrait" src={image1} alt="portrait" />
           <img className="portrait" src={image2} alt="portrait" />
           <img className="portrait" src={image3} alt="portrait" />
@@ -61,7 +78,7 @@ export default function Quotes() {
         </div>
       </div>
 
-      <div>
+      <div className="right-arrow">
         <svg
           width="11"
           height="18"
@@ -71,7 +88,7 @@ export default function Quotes() {
         >
           <path
             d="M1 1.50146L9.07692 9.00146L1 16.5015"
-            stroke="black"
+            stroke="white"
             stroke-width="2"
           />
         </svg>
