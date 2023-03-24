@@ -1,3 +1,4 @@
+/* /////////FULL SECTION STYLING////////////// */
 .quoteSection {
   display: flex;
   margin: 0 auto;
@@ -6,6 +7,8 @@
   margin-bottom: 100px;
   justify-content: space-between;
 }
+
+/* ////////////////CENTER DIV STYLING/////////// */
 
 .quote-center {
   display: flex;

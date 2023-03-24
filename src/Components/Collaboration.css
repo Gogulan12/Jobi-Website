@@ -1,3 +1,45 @@
+/* ////////////////COLLAB POSTER////////////// */
+
+.collab-poster {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #29503d;
+  padding: 80px 40px;
+}
+
+.collab-img-left {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.collab-img-left h2 {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.collab-img-left p {
+  font-family: "Gordita", sans-serif;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.collab-img-left button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #00bf58;
+  font-family: "Gordita", sans-serif;
+}
+
+/* ///////////TRENDING SKILLS LIST/////////////// */
+
 .trendingSkillsList {
   display: flex;
   margin: 0 auto;
