@@ -21,7 +21,154 @@
   justify-content: center;
 }
 .trending-button button {
-  padding: 10px;
+  padding: 5px 10px;
   color: #005025;
-  /* background-color: white; */
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+}
+
+.trending-button .first-button {
+  background-color: white;
+}
+
+/* /////////////// list of services /////////////// */
+
+.image-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.image-box {
+  width: 23%;
+  height: 320px;
+  /* background-color: lightblue; */
+  position: relative;
+}
+
+.image-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  opacity: 1;
+  z-index: 1;
+}
+
+.image-box p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-family: "Gordita", sans-serif;
+  z-index: 2;
+}
+
+.image-box p span {
+  display: block;
+}
+
+.wordpress {
+  background-image: url(../Assets/wordpress.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.editing {
+  background-image: url(../Assets/editing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.branding {
+  background-image: url(../Assets/design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.support {
+  background-image: url(../Assets/customerSupport.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ///////////Explore the marketplace/////////////// */
+
+.marketplace-title {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.marketplace-title h2 {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 2.6rem;
+  color: #005025;
+}
+
+.marketplace-title a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gordita", sans-serif;
+  font-weight: bold;
+  color: #00ba56;
+  margin-top: 7px;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #00ba56;
+}
+
+.marketplace-title a svg {
+  margin-left: 7px;
+  margin-bottom: -5px;
+}
+
+/* ///////////////////Explore list //////////////////////// */
+
+.explore-list {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.explore-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore-list ul li {
+  list-style: none;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 50px 40px;
+  justify-content: space-between;
+  border-radius: 60px;
+}
+
+.explore-list ul .explore-list-one {
+  border: 1px solid #00ba56;
+}
+
+.explore-list ul li img {
+  width: 25px;
+  margin-bottom: 40px;
+}
+
+.explore-list ul li h4 {
+  margin-bottom: 40px;
+  font-family: "Gordita", sans-serif;
+  color: #005025;
+}
+
+.explore-list ul li p {
+  font-family: "Gordita", sans-serif;
+  color: rgba(95, 94, 94, 0.555);
 }
