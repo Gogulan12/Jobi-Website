@@ -1,14 +1,3 @@
-.portrait {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-.quote-images {
-  width: 75%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .quoteSection {
   display: flex;
   margin: 0 auto;
@@ -69,6 +58,24 @@
   font-weight: normal;
   color: gray;
 }
+
+/*////////////////IMAGES AT THE BOTTOM/////////// */
+
+
+.portrait {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.quote-images {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* ///////////////ARROWS TO THE SIDE///////////// */
 
 .left-arrow,
 .right-arrow {
