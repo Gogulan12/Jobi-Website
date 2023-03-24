@@ -163,22 +163,28 @@ export default function Center() {
             <li>
               <p>1</p>
               <div>
-                <h3>It takes 2 minutes to open an account.</h3>
-                <p>Open account</p>
+                <h3>
+                  It takes 2 minutes to <br /> open an account.
+                </h3>
+                <h5>Open account</h5>
               </div>
             </li>
             <li>
               <p>2</p>
               <div>
-                <h3>Find talents or search your desire work.</h3>
-                <p>apply job or hire</p>
+                <h3>
+                  Find talents or search <br /> your desire work.
+                </h3>
+                <h5>apply job or hire</h5>
               </div>
             </li>
             <li>
               <p>3</p>
               <div>
-                <h3>Get work done quickly with jobi gateway.</h3>
-                <p>payment method</p>
+                <h3>
+                  Get work done quickly <br /> with jobi gateway.
+                </h3>
+                <h5>payment method</h5>
               </div>
             </li>
           </ul>
