@@ -1,3 +1,58 @@
 .posterOne .right img {
   width: 300px;
 }
+
+.posterTwo {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: grey;
+}
+
+.posterTwo .main {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.posterTwo .main .inner-main-container {
+  width: 40%;
+}
+
+.inner-main-container {
+  padding-top: 50px;
+}
+
+.inner-main-container svg {
+  box-sizing: content-box;
+  padding: 15px 20px;
+}
+
+.inner-main-container .svg-container {
+  width: fit-content;
+  background-color: #00bf58;
+  border-radius: 50%;
+}
+
+.inner-main-container h2 {
+  color: white;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 3.5rem;
+  padding-top: 20px;
+}
+
+.inner-main-container h2 span {
+  color: #00bf58;
+}
+
+.inner-main-container p {
+  font-family: "Gordita", sans-serif;
+  color: white;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+/* //////////POSTER TWO LIST SECTION//////// */
+
+.posterTwo .steps ul {
+  display: flex;
+}

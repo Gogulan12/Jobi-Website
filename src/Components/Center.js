@@ -1,6 +1,6 @@
 import React from "react";
 import person from "../Assets/person-center.jpg";
-import arrow from "../Assets/arrow.svg";
+// import arrow from "../Assets/arrow.svg";
 import "./Center.css";
 
 export default function Center() {
@@ -131,12 +131,32 @@ export default function Center() {
       </section>
       <section className="posterTwo">
         <div className="main">
-          <img src={arrow} alt="" />
-          <h2>Let's get started It's simple.</h2>
-          <p>
-            Get access to our top 1% talent as well as a complete set of hybrid
-            workforce management tools.
-          </p>
+          {/* <img src={arrow} alt="" /> */}
+          <div className="inner-main-container">
+            <div className="svg-container">
+              <svg
+                width="20"
+                height="26"
+                viewBox="0 0 20 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.536621 2.32924C0.536621 0.658228 2.46436 -0.275954 3.77591 0.759481L18.2747 12.2059C19.338 13.0454 19.2766 14.677 18.1531 15.4341L3.65436 25.2055C2.32594 26.1007 0.536621 25.1489 0.536621 23.5469V2.32924Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+
+            <h2>
+              Let's get started <br />
+              It's <span>simple.</span>
+            </h2>
+            <p>
+              Get access to our top 1% talent as well as a complete <br />
+              set of hybrid workforce management tools.
+            </p>
+          </div>
         </div>
         <div className="steps">
           <ul>

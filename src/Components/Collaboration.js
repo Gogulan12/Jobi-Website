@@ -24,7 +24,7 @@ export default function Collaboration() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="34.4778" cy="34.8822" r="34.3114" fill="black" />
+            <circle cx="34.4778" cy="34.8822" r="34.3114" fill="white" />
           </svg>
           <svg
             width="110"
@@ -33,7 +33,7 @@ export default function Collaboration() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="55" cy="55" r="55" fill="black" />
+            <circle cx="55" cy="55" r="55" fill="white" />
           </svg>
           <svg
             width="56"
@@ -42,7 +42,7 @@ export default function Collaboration() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="28.3742" cy="27.5339" r="27.5339" fill="black" />
+            <circle cx="28.3742" cy="27.5339" r="27.5339" fill="white" />
           </svg>
           <svg
             width="89"
@@ -51,7 +51,7 @@ export default function Collaboration() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="44.4778" cy="44.4778" r="44.4778" fill="black" />
+            <circle cx="44.4778" cy="44.4778" r="44.4778" fill="white" />
           </svg>
           <svg
             width="89"
@@ -60,7 +60,7 @@ export default function Collaboration() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="44.4778" cy="44.4778" r="44.4778" fill="black" />
+            <circle cx="44.4778" cy="44.4778" r="44.4778" fill="white" />
           </svg>
           <svg
             width="158"
@@ -69,7 +69,7 @@ export default function Collaboration() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="78.6001" cy="78.6001" r="78.6001" fill="black" />
+            <circle cx="78.6001" cy="78.6001" r="78.6001" fill="white" />
           </svg>
           <div>
             <h3>100+</h3>
