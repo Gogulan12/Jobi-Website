@@ -1,6 +1,11 @@
 import React from "react";
 
 import "./Collaboration.css";
+import slack from "../Assets/slack-logo.svg";
+import messenger from "../Assets/messanger-logo.svg";
+import microsoft from "../Assets/microsoft-logo.svg";
+import twitter from "../Assets/twitter-logo.svg";
+import instagram from "../Assets/instagram-logo.svg";
 
 export default function Collaboration() {
   return (
@@ -23,6 +28,7 @@ export default function Collaboration() {
             viewBox="0 0 69 70"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="circle circle1"
           >
             <circle cx="34.4778" cy="34.8822" r="34.3114" fill="white" />
           </svg>
@@ -32,6 +38,7 @@ export default function Collaboration() {
             viewBox="0 0 110 110"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="circle circle2"
           >
             <circle cx="55" cy="55" r="55" fill="white" />
           </svg>
@@ -41,6 +48,7 @@ export default function Collaboration() {
             viewBox="0 0 56 56"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="circle circle3"
           >
             <circle cx="28.3742" cy="27.5339" r="27.5339" fill="white" />
           </svg>
@@ -50,6 +58,7 @@ export default function Collaboration() {
             viewBox="0 0 89 89"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="circle circle4"
           >
             <circle cx="44.4778" cy="44.4778" r="44.4778" fill="white" />
           </svg>
@@ -59,6 +68,7 @@ export default function Collaboration() {
             viewBox="0 0 89 89"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="circle circle5"
           >
             <circle cx="44.4778" cy="44.4778" r="44.4778" fill="white" />
           </svg>
@@ -68,13 +78,52 @@ export default function Collaboration() {
             viewBox="0 0 158 158"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            className="circle circle6"
           >
             <circle cx="78.6001" cy="78.6001" r="78.6001" fill="white" />
           </svg>
-          <div>
+          <div className="circle-text">
             <h3>100+</h3>
             <p>Leading Brands</p>
           </div>
+          <div className="collab-logo">
+            <div className="two-circles-collab-logo">
+              <svg
+                width="28"
+                height="29"
+                viewBox="0 0 28 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="collab-logo-circle1"
+              >
+                <circle
+                  cx="13.95"
+                  cy="14.25"
+                  r="13.95"
+                  fill="#00D462"
+                  fill-opacity="0.34"
+                />
+              </svg>
+
+              <svg
+                // className="second-circle"
+                className="collab-logo-circle2"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="14.45" cy="14.25" r="13.95" fill="#00D462" />
+              </svg>
+            </div>
+            <h3>jobi</h3>
+          </div>
+          <img src={slack} alt="" className="slack" />
+          <img src={messenger} alt="" className="messenger" />
+          <img src={instagram} alt="" className="instagram" />
+          <img src={twitter} alt="" className="twitter" />
+          <img src={microsoft} alt="" className="microsoft" />
         </div>
       </div>
 
