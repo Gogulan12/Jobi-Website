@@ -2,86 +2,114 @@ import React from "react";
 import person from "../Assets/person-center.jpg";
 // import arrow from "../Assets/arrow.svg";
 import "./Center.css";
+import personOne from "../Assets/search-person-one.jpg";
+import personTwo from "../Assets/search-person-two.jpg";
+import personThree from "../Assets/search-person-three.jpg";
+import personFour from "../Assets/search-person-four.jpg";
 
 export default function Center() {
   return (
     <div>
       <section className="center-search">
         <div className="left">
-          <div>
-            <input type="text" placeholder="Designer, Brand, Logo designer" />
-            <button>
-              <svg
-                width="23"
-                height="24"
-                viewBox="0 0 23 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M20.4035 10.6378C20.4035 16.0366 16.007 20.4187 10.5767 20.4187C5.14651 20.4187 0.75 16.0366 0.75 10.6378C0.75 5.23905 5.14651 0.856934 10.5767 0.856934C16.007 0.856934 20.4035 5.23905 20.4035 10.6378Z"
-                  stroke="white"
-                  stroke-width="1.5"
-                />
-                <path
-                  d="M17.3193 17.3511L22.0959 22.7864"
-                  stroke="white"
-                  stroke-width="1.5"
-                />
-              </svg>
-            </button>
+          <div className="left-container">
+            <div className="first-section">
+              <div className="first-search-section">
+                <h3>Designer, Brand, Logo Designer</h3>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.73122 14.2867L6.21937 15.7684L10.3267 11.6789L14.4538 15.7881L15.9221 14.3262L11.795 10.217L15.8626 6.16699L14.3744 4.68529L10.3068 8.73526L6.17969 4.62603L4.71138 6.08796L8.83851 10.1972L4.73122 14.2867Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <button>
+                <svg
+                  width="23"
+                  height="24"
+                  viewBox="0 0 23 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.4035 10.6378C20.4035 16.0366 16.007 20.4187 10.5767 20.4187C5.14651 20.4187 0.75 16.0366 0.75 10.6378C0.75 5.23905 5.14651 0.856934 10.5767 0.856934C16.007 0.856934 20.4035 5.23905 20.4035 10.6378Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M17.3193 17.3511L22.0959 22.7864"
+                    stroke="white"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </button>
+            </div>
             <div className="list-of-people">
               <ul>
                 <li>
-                  <div>
-                    <img src="" alt="person" />
+                  <div className="list-first-half">
+                    <img src={personOne} alt="person" />
                     <div>
-                      <p>Antonio Volaska</p>
+                      <h4>Antonio Volaska</h4>
                       <p>UI Designer</p>
                     </div>
                   </div>
-                  <div>
-                    <p>HIRE ME</p>
-                    <p>From California</p>
+                  <div className="list-second-half">
+                    <h4>HIRE ME</h4>
+                    <h5>
+                      <span>From</span> California
+                    </h5>
                   </div>
                 </li>
                 <li>
-                  <div>
-                    <img src="" alt="person" />
+                  <div className="list-first-half">
+                    <img src={personTwo} alt="person" />
                     <div>
-                      <p>Rashed ka</p>
+                      <h4>Rashed ka</h4>
                       <p>Motion Designer</p>
                     </div>
                   </div>
-                  <div>
-                    <p>HIRE ME</p>
-                    <p>From Bangladesh</p>
+                  <div className="list-second-half">
+                    <h4>HIRE ME</h4>
+                    <h5>
+                      <span>From</span> Bangladesh
+                    </h5>
                   </div>
                 </li>
                 <li>
-                  <div>
-                    <img src="" alt="person" />
+                  <div className="list-first-half">
+                    <img src={personThree} alt="person" />
                     <div>
-                      <p>Zubayer Al Hasan</p>
+                      <h4>Zubayer Al Hasan</h4>
                       <p>Developer</p>
                     </div>
                   </div>
-                  <div>
-                    <p>HIRE ME</p>
-                    <p>From Norway</p>
+                  <div className="list-second-half">
+                    <h4>HIRE ME</h4>
+                    <h5>
+                      <span>From</span> Norway
+                    </h5>
                   </div>
                 </li>
                 <li>
-                  <div>
-                    <img src="" alt="person" />
+                  <div className="list-first-half">
+                    <img src={personFour} alt="person" />
                     <div>
-                      <p>Jannatul Ferdaus</p>
+                      <h4>Jannatul Ferdaus</h4>
                       <p>Youtuber</p>
                     </div>
                   </div>
-                  <div>
-                    <p>HIRE ME</p>
-                    <p>From Turkey</p>
+                  <div className="list-second-half">
+                    <h4>HIRE ME</h4>
+                    <h5>
+                      <span>From</span> Turkey
+                    </h5>
                   </div>
                 </li>
               </ul>
@@ -89,15 +117,53 @@ export default function Center() {
           </div>
         </div>
         <div className="right">
-          <p>why choose us?</p>
-          <h2>World of talent at your fingertips</h2>
-          <h3>Seamless Search</h3>
-          <p>
+          <p className="right-question">why choose us?</p>
+          <h2>
+            World of talent at <br /> your fingertips
+          </h2>
+          <div className="seamless-container">
+            <h3>Seamless Search</h3>
+            <div className="seamless-image">
+              <svg
+                width="16"
+                height="10"
+                viewBox="0 0 16 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.1714 8.84363L7.17254 2.00021L1.00012 8.84363"
+                  stroke="#005025"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <p className="right-seamless">
             It only takes 5 minutes. Set-up is smooth and simple, with fully
             costomisable page design to relfect your brand.
           </p>
-          <h3>Hire top talents</h3>
-          <h3>Proteced payments, every time</h3>
+          <div className="toptalent-container">
+            <h3 className="right-toptalent">Hire top talents</h3>
+            <div className="toptalent-image">
+              <svg
+                width="16"
+                height="10"
+                viewBox="0 0 16 10"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 1.63794L7.99884 8.48136L14.1713 1.63794"
+                  stroke="#005025"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+          </div>
+          <h3 className="right-payment">Protected payments, every time</h3>
           <button>Learn More</button>
         </div>
       </section>
