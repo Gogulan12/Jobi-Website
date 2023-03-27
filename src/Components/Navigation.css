@@ -81,6 +81,14 @@
   padding: 20px;
   font-family: "Gordita", sans-serif;
 }
+.top-nav-right ul li .nav-job {
+  list-style: none;
+  padding: 20px;
+  font-family: "Gordita", sans-serif;
+  color: black;
+  margin-right: 0px;
+  font-weight: normal;
+}
 
 .top-nav-right a {
   color: #00bf58;

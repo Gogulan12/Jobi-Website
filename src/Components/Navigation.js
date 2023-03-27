@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -48,7 +49,11 @@ export default function Navigation() {
         </div>
         <div className="top-nav-right">
           <ul>
-            <li>Find Job</li>
+            <li>
+              <a href="/listing" className="nav-job">
+                Find Job
+              </a>
+            </li>
             <li>Find Talents</li>
             <li>Pages</li>
           </ul>
