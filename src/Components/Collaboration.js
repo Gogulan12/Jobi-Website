@@ -10,8 +10,8 @@ import instagram from "../Assets/instagram-logo.svg";
 export default function Collaboration() {
   return (
     <div>
-      <div className="collab-poster">
-        <div className="collab-img-left">
+      <div className="collabPoster">
+        <div className="collabImgLeft">
           <h2>
             Collaboration <br /> with leading <br /> Brands.
           </h2>
@@ -21,7 +21,7 @@ export default function Collaboration() {
           </p>
           <button>Learn More</button>
         </div>
-        <div className="collab-img-right">
+        <div className="collabImgRight">
           <svg
             width="69"
             height="70"
@@ -82,32 +82,32 @@ export default function Collaboration() {
           >
             <circle cx="78.6001" cy="78.6001" r="78.6001" fill="white" />
           </svg>
-          <div className="circle-text">
+          <div className="circleText">
             <h3>100+</h3>
             <p>Leading Brands</p>
           </div>
-          <div className="collab-logo">
-            <div className="two-circles-collab-logo">
+          <div className="collabLogo">
+            <div className="twoCirclesCollabLogo">
               <svg
                 width="28"
                 height="29"
                 viewBox="0 0 28 29"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="collab-logo-circle1"
+                className="collabLogoCircle1"
               >
                 <circle
                   cx="13.95"
                   cy="14.25"
                   r="13.95"
                   fill="#00D462"
-                  fill-opacity="0.34"
+                  fillOpacity="0.34"
                 />
               </svg>
 
               <svg
                 // className="second-circle"
-                className="collab-logo-circle2"
+                className="collabLogoCircle2"
                 width="29"
                 height="29"
                 viewBox="0 0 29 29"
@@ -129,8 +129,8 @@ export default function Collaboration() {
 
       <div className="trendingSkillsList">
         <div className="trendingskills">
-          <h3 className="trend-main">Trending Skills</h3>
-          <ul className="bottom-trending-list">
+          <h3 className="trendMain">Trending Skills</h3>
+          <ul className="bottomTrendingList">
             <li>Blockchain</li>
             <li>Node.js</li>
             <li>HR consulting</li>
@@ -142,7 +142,7 @@ export default function Collaboration() {
         </div>
         <div className="topskills">
           <h3>Top Skills</h3>
-          <ul className="bottom-trending-list">
+          <ul className="bottomTrendingList">
             <li>Full Consultation</li>
             <li>Code Review</li>
             <li>Staff Augmentation</li>
@@ -154,7 +154,7 @@ export default function Collaboration() {
         </div>
         <div className="topusa">
           <h3>Top in USA</h3>
-          <ul className="bottom-trending-list">
+          <ul className="bottomTrendingList">
             <li>Technical Support</li>
             <li>Accountants</li>
             <li>Web Designers in US</li>
@@ -164,7 +164,7 @@ export default function Collaboration() {
         </div>
         <div className="projectcatalog">
           <h3>Project Catalog</h3>
-          <ul className="bottom-trending-list">
+          <ul className="bottomTrendingList">
             <li>Mircosites</li>
             <li>Marketing Automation</li>
             <li>SEO & SMM</li>

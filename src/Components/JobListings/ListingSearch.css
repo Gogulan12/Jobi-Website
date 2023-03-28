@@ -1,0 +1,44 @@
+.filter {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.filterContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #eff6f3;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+.filterHeaderSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  font-family: "Gordita", sans-serif;
+}
+
+.filterButtonContainer {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.filterSearchSection {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.filterbox {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.filterbox label {
+  padding-bottom: 15px;
+  font-family: "Gordita", sans-serif;
+}

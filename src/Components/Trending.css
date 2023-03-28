@@ -1,52 +1,52 @@
-.trending-first {
+.trendingFirst {
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 50px;
 }
 
-.trending-Title {
+.trendingTitle {
   display: flex;
   justify-content: space-between;
 }
 
-.trending-Title h2 {
+.trendingTitle h2 {
   color: #005025;
   font-family: "EB Garamond", serif;
   font-size: 3rem;
 }
 
-.trending-button {
+.trendingButton {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.trending-button button {
+.trendingButton button {
   padding: 5px 10px;
   color: #005025;
   border: 1px solid #f0f0f0;
   background-color: #f0f0f0;
 }
 
-.trending-button .first-button {
+.trending-button .firstButton {
   background-color: white;
 }
 
 /* /////////////// list of services /////////////// */
 
-.image-list {
+.imageList {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-.image-box {
+.imageBox {
   width: 23%;
   height: 320px;
   /* background-color: lightblue; */
   position: relative;
 }
 
-.image-box::before {
+.imageBox::before {
   content: "";
   position: absolute;
   top: 0;
@@ -58,7 +58,7 @@
   z-index: 1;
 }
 
-.image-box p {
+.imageBox p {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -67,7 +67,7 @@
   z-index: 2;
 }
 
-.image-box p span {
+.imageBox p span {
   display: block;
 }
 
@@ -94,7 +94,7 @@
 
 /* ///////////Explore the marketplace/////////////// */
 
-.marketplace-title {
+.marketplaceTitle {
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -104,13 +104,13 @@
   margin-top: 100px;
 }
 
-.marketplace-title h2 {
+.marketplaceTitle h2 {
   font-family: "EB Garamond", sans-serif;
   font-size: 2.6rem;
   color: #005025;
 }
 
-.marketplace-title a {
+.marketplaceTitle a {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -123,25 +123,25 @@
   border-bottom: 2px solid #00ba56;
 }
 
-.marketplace-title a svg {
+.marketplaceTitle a svg {
   margin-left: 7px;
   margin-bottom: -5px;
 }
 
 /* ///////////////////Explore list //////////////////////// */
 
-.explore-list {
+.exploreList {
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 50px;
 }
 
-.explore-list ul {
+.exploreList ul {
   display: flex;
   justify-content: space-between;
 }
 
-.explore-list ul li {
+.exploreList ul li {
   list-style: none;
   border: 1px solid lightgray;
   display: flex;
@@ -153,22 +153,22 @@
   border-radius: 60px;
 }
 
-.explore-list ul .explore-list-one {
+.exploreList ul .exploreListOne {
   border: 1px solid #00ba56;
 }
 
-.explore-list ul li img {
+.exploreList ul li img {
   width: 25px;
   margin-bottom: 40px;
 }
 
-.explore-list ul li h4 {
+.exploreList ul li h4 {
   margin-bottom: 40px;
   font-family: "Gordita", sans-serif;
   color: #005025;
 }
 
-.explore-list ul li p {
+.exploreList ul li p {
   font-family: "Gordita", sans-serif;
   color: rgba(95, 94, 94, 0.555);
 }

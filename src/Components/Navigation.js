@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <div className="navigation">
-      <section className="top-nav">
-        <div className="top-nav-left">
+      <section className="topNav">
+        <div className="topNavLeft">
           <div className="logo">
             <svg
               width="28"
@@ -20,12 +20,12 @@ export default function Navigation() {
                 cy="14.25"
                 r="13.95"
                 fill="#00D462"
-                fill-opacity="0.34"
+                fillOpacity="0.34"
               />
             </svg>
 
             <svg
-              className="second-circle"
+              className="secondCircle"
               width="29"
               height="29"
               viewBox="0 0 29 29"
@@ -47,10 +47,10 @@ export default function Navigation() {
             </select>
           </div>
         </div>
-        <div className="top-nav-right">
+        <div className="topNavRight">
           <ul>
             <li>
-              <a href="/listing" className="nav-job">
+              <a href="/listing" className="navJob">
                 Find Job
               </a>
             </li>
@@ -63,7 +63,7 @@ export default function Navigation() {
         </div>
       </section>
 
-      <section className="nav-under">
+      <section className="navUnder">
         <div className="listOfOptions">
           <ul>
             <li>Design & Creative</li>
@@ -89,8 +89,8 @@ export default function Navigation() {
                 <path
                   d="M1 1L4.66667 5L8.33333 1"
                   stroke="black"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
                 />
               </svg>
             </li>

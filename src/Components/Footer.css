@@ -1,4 +1,4 @@
-.top-footer {
+.topFooter {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
@@ -7,32 +7,32 @@
   border-bottom: 1px solid lightgray;
 }
 
-.top-footer .left h2 {
+.topFooter .left h2 {
   font-size: 3rem;
   font-family: "EB Garamond", serif;
   font-weight: lighter;
   font-size: 3.8rem;
 }
 
-.top-footer .left p {
+.topFooter .left p {
   color: grey;
   font-family: "Gordita", sans-serif;
 }
 
-.top-footer .right {
+.topFooter .right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.top-footer .right a {
+.topFooter .right a {
   padding: 15px 25px;
   font-family: "Gordita", sans-serif;
   border-radius: 6px;
   text-decoration: none;
 }
 
-.top-footer .right .look {
+.topFooter .right .look {
   /* border: none; */
   border: 3px solid;
   margin-right: 30px;
@@ -43,7 +43,7 @@
   outline: none;
 }
 
-.top-footer .right .post {
+.topFooter .right .post {
   /* border: none; */
   border: 3px solid;
   margin-right: 30px;
@@ -54,7 +54,7 @@
   outline: none;
 }
 
-.top-section {
+.topSection {
   background-color: #f4faf7;
 }
 
@@ -68,12 +68,12 @@
   justify-content: space-between;
 }
 
-.footer-logo {
+.footerLogo {
   display: flex;
   justify-content: center;
 }
 
-.footer-logo h3 {
+.footerLogo h3 {
   font-family: "EB Garamond", serif;
   font-size: 2rem;
   font-weight: lighter;
@@ -81,7 +81,7 @@
   margin-left: 10px;
 }
 
-.footer-lists li {
+.footerLists li {
   list-style: none;
   margin-top: 20px;
   color: grey;
@@ -100,7 +100,7 @@
   background-color: white;
 }
 
-.newsletter-wrapper {
+.newsletterWrapper {
   border: 1px solid #f4faf7;
   border-radius: 10px;
   display: inline-block;
@@ -108,20 +108,20 @@
   background-color: white;
 }
 
-.newsletter-wrapper input,
-.newsletter-wrapper button {
+.newsletterWrapper input,
+.newsletterWrapper button {
   background-color: white;
   border: 0;
 }
 
-.newsletter-wrapper button {
+.newsletterWrapper button {
   background-color: #244034;
   padding: 10px;
   color: white;
   border-radius: 6px;
 }
 
-.newsletter .newsletter-email-message {
+.newsletter .newsletterEmailMessage {
   margin-top: 10px;
   color: #979797;
 }
@@ -134,11 +134,11 @@ footer {
   padding: 30px 0;
 }
 
-.bottom-links {
+.bottomLinks {
   display: flex;
 }
 
-.bottom-links p {
+.bottomLinks p {
   margin-right: 20px;
   font-weight: bold;
 }

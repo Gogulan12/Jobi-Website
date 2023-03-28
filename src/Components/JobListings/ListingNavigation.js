@@ -6,10 +6,10 @@ import "./ListingNavigation.css";
 
 export default function ListingNavigation() {
   return (
-    <div className="listing-nav">
+    <div className="listingNav">
       <nav>
-        <div className="list-logo">
-          <div className="list-logo-circle">
+        <div className="listLogo">
+          <div className="listLogoCircle">
             <img src={circle1} alt="" />
             <img src={circle2} alt="" className="circle2" />
           </div>
@@ -17,7 +17,7 @@ export default function ListingNavigation() {
         </div>
 
         <div className="category">
-          <div className="category-container">
+          <div className="categoryContainer">
             <svg
               width="13"
               height="13"
@@ -54,27 +54,27 @@ export default function ListingNavigation() {
           <path
             d="M1 77.79C21.2222 52.1716 43.6755 30.1124 69.7049 10.2946C73.5485 7.36822 84.2182 -2.04822 81.5878 1.9919C78.3371 6.98486 74.5511 11.6628 71.2893 16.6648C56.7409 38.9746 44.1597 62.8008 31.6795 86.3075C31.2257 87.1624 27.1391 94.1665 31.5355 90.602C36.6892 86.4235 41.3061 81.5151 46.1551 77.0027C51.4625 72.0638 56.8605 67.2277 62.071 62.1867C62.6818 61.5957 64.5328 60.0342 64.2315 60.8267C61.3576 68.3875 57.8248 75.7505 54.5812 83.1582C53.2233 86.2592 51.5488 89.5936 50.6922 92.8924C50.2977 94.4117 52.917 90.6642 54.077 89.6C58.4069 85.6277 62.8588 81.6819 67.7604 78.4342"
             stroke="#598C76"
-            stroke-linecap="round"
+            strokeLinecap="round"
           />
         </svg>
 
-        <div className="list-nav-posting">
+        <div className="listNavPosting">
           <p className="posting">Post Job</p>
           <p className="login">Login</p>
           <button>Hire Top Talents</button>
         </div>
       </nav>
 
-      <section className="Job-listing-Search">
+      <section className="jobListingSearch">
         <h1>Job Listing</h1>
         <h5>We delivered blazing fast & striking work solution</h5>
-        <div className="full-search-bar">
-          <div className="full-input">
+        <div className="fullSearchBar">
+          <div className="fullInput">
             <label htmlFor="title">What are you looking for? </label>
             <input type="text" placeholder="UI Designer" />
           </div>
-          <div className="full-input-category">
-            <div className="full-input-category-container">
+          <div className="fullInputCategory">
+            <div className="fullInputCategoryContainer">
               <label htmlFor="category">Category</label>
               <select name="category" id="category">
                 <option value="#">Web Design</option>

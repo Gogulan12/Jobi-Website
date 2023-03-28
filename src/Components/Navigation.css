@@ -16,15 +16,15 @@
   max-width: 1200px;
 }
 
-.top-nav {
+.topNav {
   display: flex;
   margin-top: 60px;
   margin: 20px 28px;
   justify-content: space-between;
 }
 
-.top-nav-left,
-.top-nav-right {
+.topNavLeft,
+.topNavRight {
   display: flex;
 }
 
@@ -40,7 +40,7 @@
 .logo h3 {
   margin-left: 5px;
 }
-.second-circle {
+.secondCircle {
   margin-left: -15px;
 }
 
@@ -71,17 +71,17 @@
   border-radius: 0px 7px 7px 0px;
 }
 
-.top-nav-right ul {
+.topNavRight ul {
   display: flex;
   margin-right: 20px;
 }
 
-.top-nav-right ul li {
+.topNavRight ul li {
   list-style: none;
   padding: 20px;
   font-family: "Gordita", sans-serif;
 }
-.top-nav-right ul li .nav-job {
+.topNavRight ul li .navJob {
   list-style: none;
   padding: 20px;
   font-family: "Gordita", sans-serif;
@@ -90,7 +90,7 @@
   font-weight: normal;
 }
 
-.top-nav-right a {
+.topNavRight a {
   color: #00bf58;
   padding: 20px;
   text-decoration: none;
@@ -99,7 +99,7 @@
   font-family: "Gordita", sans-serif;
 }
 
-.top-nav-right button {
+.topNavRight button {
   border: none;
   color: white;
   background-color: #00bf58;
@@ -113,7 +113,7 @@
   font-family: "Gordita", sans-serif;
 }
 
-.nav-under {
+.navUnder {
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
   padding: 15px;

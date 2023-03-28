@@ -10,7 +10,7 @@ import "./Quote.css";
 export default function Quotes() {
   return (
     <div className="quoteSection">
-      <div className="left-arrow">
+      <div className="leftArrow">
         <svg
           width="11"
           height="18"
@@ -21,11 +21,11 @@ export default function Quotes() {
           <path
             d="M10 16.5015L1.92308 9.00146L10 1.50146"
             stroke="black"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </svg>
       </div>
-      <div className="quote-center">
+      <div className="quoteCenter">
         <svg
           width="92"
           height="65"
@@ -52,16 +52,16 @@ export default function Quotes() {
           signing up with HostGator but they've <br /> made everthing seem
           simple."
         </h3>
-        <div className="quote-writer">
+        <div className="quoteWriter">
           <svg
-            className="quote-line"
+            className="quoteLine"
             width="31"
             height="3"
             viewBox="0 0 31 3"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <path d="M0 1.00146H31" stroke="black" stroke-width="2" />
+            <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
           </svg>
 
           <p>
@@ -69,7 +69,7 @@ export default function Quotes() {
           </p>
         </div>
 
-        <div className="quote-images">
+        <div className="quoteImages">
           <img className="portrait" src={image1} alt="portrait" />
           <img className="portrait" src={image2} alt="portrait" />
           <img className="portrait" src={image3} alt="portrait" />
@@ -78,7 +78,7 @@ export default function Quotes() {
         </div>
       </div>
 
-      <div className="right-arrow">
+      <div className="rightArrow">
         <svg
           width="11"
           height="18"
@@ -89,7 +89,7 @@ export default function Quotes() {
           <path
             d="M1 1.50146L9.07692 9.00146L1 16.5015"
             stroke="white"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </svg>
       </div>

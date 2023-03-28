@@ -1,7 +1,6 @@
 import React from "react";
-import "./Footer.css";
 
-export default function Footer() {
+export default function ListingFooter() {
   return (
     <div>
       <div className="topSection">

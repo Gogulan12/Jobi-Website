@@ -1,27 +1,27 @@
-.listing-nav {
+.listingNav {
   background-color: #244034;
 }
 
-.listing-nav nav {
+.listingNav nav {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
   justify-content: space-between;
 }
 
-.list-logo {
+.listLogo {
   display: flex;
   align-items: center;
 }
 
-.list-logo-circle {
+.listLogoCircle {
   display: flex;
 }
 .circle2 {
   margin: -15px;
 }
 
-.list-logo h2 {
+.listLogo h2 {
   margin-left: 30px;
   font-family: "Alike Angular", sans-serif;
   color: white;
@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-.category-container {
+.categoryContainer {
   display: flex;
   align-items: center;
   padding: 5px 15px;
@@ -43,44 +43,44 @@
   font-weight: 100;
 }
 
-.category-container h3 {
+.categoryContainer h3 {
   margin-left: 7px;
   font-size: 0.9rem;
 }
 
-.listing-nav nav ul {
+.listingNav nav ul {
   display: flex;
   align-items: center;
 }
 
-.listing-nav nav ul li {
+.listingNav nav ul li {
   list-style: none;
   padding: 0 15px;
   color: white;
 }
 
-.listing-nav nav ul li a {
+.listingNav nav ul li a {
   text-decoration: none;
   color: white;
 }
 
-.list-nav-posting {
+.listNavPosting {
   display: flex;
   align-items: center;
 }
 
-.list-nav-posting .posting {
+.listNavPosting .posting {
   color: white;
   padding: 0 15px;
   border-right: 1px solid lightgray;
 }
 
-.list-nav-posting .login {
+.listNavPosting .login {
   color: #d2f34c;
   margin: 0 15px;
 }
 
-.list-nav-posting button {
+.listNavPosting button {
   padding: 10px 20px;
   border-radius: 50px;
   border: none;
@@ -90,21 +90,21 @@
 
 /* ///////////////////HEADER///////////////////////// */
 
-.Job-listing-Search {
+.jobListingSearch {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
   padding: 50px 0 100px 0;
 }
 
-.Job-listing-Search h1 {
+.jobListingSearch h1 {
   padding-bottom: 40px;
   color: white;
   font-size: 3rem;
   font-family: "EB Garamond", sans-serif;
 }
 
-.Job-listing-Search h5 {
+.jobListingSearch h5 {
   padding-bottom: 50px;
   color: white;
   font-size: 1rem;
@@ -112,12 +112,12 @@
   font-weight: lighter;
 }
 
-.full-search-bar {
+.fullSearchBar {
   display: flex;
   justify-content: center;
 }
 
-.full-input {
+.fullInput {
   display: inline-block;
   padding: 10px 20px;
   background-color: white;
@@ -129,7 +129,7 @@
   text-align: left;
 }
 
-.full-input input {
+.fullInput input {
   outline: none;
   border: none;
   display: block;
@@ -137,14 +137,14 @@
   font-size: 14px;
 }
 
-.full-input label {
+.fullInput label {
   display: block;
   font-size: 12px;
   color: lightgray;
   padding-bottom: 5px;
 }
 
-.full-input-category {
+.fullInputCategory {
   display: inline-block;
   padding: 10px 20px;
   background-color: white;
@@ -157,7 +157,7 @@
   /* width: 250px; */
 }
 
-.full-input-category select {
+.fullInputCategory select {
   outline: none;
   border: none;
   display: block;
@@ -166,19 +166,19 @@
   width: 250px;
 }
 
-.full-input-category label {
+.fullInputCategory label {
   display: block;
   font-size: 12px;
   color: lightgray;
   padding-bottom: 5px;
 }
 
-.full-input-category-container {
+.fullInputCategoryContainer {
   border-left: 1px solid lightgray;
   padding-left: 20px;
 }
 
-.full-search-bar button {
+.fullSearchBar button {
   padding: 25px 30px;
   border: none;
   background-color: #d2f34c;

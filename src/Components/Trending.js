@@ -11,11 +11,11 @@ import "./Trending.css";
 export default function Trending() {
   return (
     <div>
-      <section className="trending-first">
-        <div className="trending-Title">
+      <section className="trendingFirst">
+        <div className="trendingTitle">
           <h2>Trending Services</h2>
-          <div className="trending-button">
-            <button className="first-button">
+          <div className="trendingButton">
+            <button className="firstButton">
               <svg
                 width="8"
                 height="13"
@@ -26,8 +26,8 @@ export default function Trending() {
                 <path
                   d="M6.83984 1.69199L1.99984 6.64191L6.83984 11.0073"
                   stroke="#DADADA"
-                  stroke-width="2"
-                  stroke-linecap="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
                 />
               </svg>
             </button>
@@ -42,30 +42,30 @@ export default function Trending() {
                 <path
                   d="M1.16406 11.0073L6.00406 6.0574L1.16406 1.69197"
                   stroke="#005025"
-                  stroke-width="2"
-                  stroke-linecap="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
                 />
               </svg>
             </button>
           </div>
         </div>
-        <div className="image-list">
-          <div className="image-box wordpress">
+        <div className="imageList">
+          <div className="imageBox wordpress">
             <p>
               WordPress <span>Development.</span>
             </p>
           </div>
-          <div className="image-box editing">
+          <div className="imageBox editing">
             <p>
               Audio & <span>Video Editing.</span>
             </p>
           </div>
-          <div className="image-box branding">
+          <div className="imageBox branding">
             <p>
               Product & <span>Branding Design</span>
             </p>
           </div>
-          <div className="image-box support">
+          <div className="imageBox support">
             <p>
               Admin & <span>Customer Support</span>
             </p>
@@ -73,7 +73,7 @@ export default function Trending() {
         </div>
       </section>
       <section className="second">
-        <div className="marketplace-title">
+        <div className="marketplaceTitle">
           <h2>Explore the marketplace.</h2>
           <a href="#">
             Explore all fields{" "}
@@ -87,15 +87,15 @@ export default function Trending() {
               <path
                 d="M1.16406 11.0073L6.00406 6.0574L1.16406 1.69197"
                 stroke="#00BA56"
-                stroke-width="2"
-                stroke-linecap="round"
+                strokeWidth="2"
+                strokeLinecap="round"
               />
             </svg>
           </a>
         </div>
-        <div className="explore-list">
+        <div className="exploreList">
           <ul>
-            <li className="explore-list-one">
+            <li className="exploreListOne">
               <img src={ui} alt="" />
               <h4>UI/UX Design</h4>
               <p>12k+ Jobs</p>

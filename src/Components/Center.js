@@ -10,11 +10,11 @@ import personFour from "../Assets/search-person-four.jpg";
 export default function Center() {
   return (
     <div>
-      <section className="center-search">
+      <section className="centerSearch">
         <div className="left">
-          <div className="left-container">
-            <div className="first-section">
-              <div className="first-search-section">
+          <div className="leftContainer">
+            <div className="firstSection">
+              <div className="firstSearchSection">
                 <h3>Designer, Brand, Logo Designer</h3>
                 <svg
                   width="20"
@@ -40,27 +40,27 @@ export default function Center() {
                   <path
                     d="M20.4035 10.6378C20.4035 16.0366 16.007 20.4187 10.5767 20.4187C5.14651 20.4187 0.75 16.0366 0.75 10.6378C0.75 5.23905 5.14651 0.856934 10.5767 0.856934C16.007 0.856934 20.4035 5.23905 20.4035 10.6378Z"
                     stroke="white"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                   />
                   <path
                     d="M17.3193 17.3511L22.0959 22.7864"
                     stroke="white"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                   />
                 </svg>
               </button>
             </div>
-            <div className="list-of-people">
+            <div className="listOfPeople">
               <ul>
                 <li>
-                  <div className="list-first-half">
+                  <div className="listFirstHalf">
                     <img src={personOne} alt="person" />
                     <div>
                       <h4>Antonio Volaska</h4>
                       <p>UI Designer</p>
                     </div>
                   </div>
-                  <div className="list-second-half">
+                  <div className="listSecondHalf">
                     <h4>HIRE ME</h4>
                     <h5>
                       <span>From</span> California
@@ -68,14 +68,14 @@ export default function Center() {
                   </div>
                 </li>
                 <li>
-                  <div className="list-first-half">
+                  <div className="listFirstHalf">
                     <img src={personTwo} alt="person" />
                     <div>
                       <h4>Rashed ka</h4>
                       <p>Motion Designer</p>
                     </div>
                   </div>
-                  <div className="list-second-half">
+                  <div className="listSecondHalf">
                     <h4>HIRE ME</h4>
                     <h5>
                       <span>From</span> Bangladesh
@@ -83,14 +83,14 @@ export default function Center() {
                   </div>
                 </li>
                 <li>
-                  <div className="list-first-half">
+                  <div className="listFirstHalf">
                     <img src={personThree} alt="person" />
                     <div>
                       <h4>Zubayer Al Hasan</h4>
                       <p>Developer</p>
                     </div>
                   </div>
-                  <div className="list-second-half">
+                  <div className="listSecondHalf">
                     <h4>HIRE ME</h4>
                     <h5>
                       <span>From</span> Norway
@@ -98,14 +98,14 @@ export default function Center() {
                   </div>
                 </li>
                 <li>
-                  <div className="list-first-half">
+                  <div className="listFirstHalf">
                     <img src={personFour} alt="person" />
                     <div>
                       <h4>Jannatul Ferdaus</h4>
                       <p>Youtuber</p>
                     </div>
                   </div>
-                  <div className="list-second-half">
+                  <div className="listSecondHalf">
                     <h4>HIRE ME</h4>
                     <h5>
                       <span>From</span> Turkey
@@ -117,13 +117,13 @@ export default function Center() {
           </div>
         </div>
         <div className="right">
-          <p className="right-question">why choose us?</p>
+          <p className="rightQuestion">why choose us?</p>
           <h2>
             World of talent at <br /> your fingertips
           </h2>
-          <div className="seamless-container">
+          <div className="seamlessContainer">
             <h3>Seamless Search</h3>
-            <div className="seamless-image">
+            <div className="seamlessImage">
               <svg
                 width="16"
                 height="10"
@@ -134,19 +134,19 @@ export default function Center() {
                 <path
                   d="M14.1714 8.84363L7.17254 2.00021L1.00012 8.84363"
                   stroke="#005025"
-                  stroke-width="2"
-                  stroke-linecap="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
                 />
               </svg>
             </div>
           </div>
-          <p className="right-seamless">
+          <p className="rightSeamless">
             It only takes 5 minutes. Set-up is smooth and simple, with fully
             costomisable page design to relfect your brand.
           </p>
-          <div className="toptalent-container">
-            <h3 className="right-toptalent">Hire top talents</h3>
-            <div className="toptalent-image">
+          <div className="toptalentContainer">
+            <h3 className="rightToptalent">Hire top talents</h3>
+            <div className="toptalentImage">
               <svg
                 width="16"
                 height="10"
@@ -157,13 +157,13 @@ export default function Center() {
                 <path
                   d="M1 1.63794L7.99884 8.48136L14.1713 1.63794"
                   stroke="#005025"
-                  stroke-width="2"
-                  stroke-linecap="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
                 />
               </svg>
             </div>
           </div>
-          <h3 className="right-payment">Protected payments, every time</h3>
+          <h3 className="rightPayment">Protected payments, every time</h3>
           <button>Learn More</button>
         </div>
       </section>
@@ -175,7 +175,7 @@ export default function Center() {
             Solutions for your <br />
             <span>business.</span>
           </h2>
-          <p className="posterone-paragraph">
+          <p className="posteroneParagraph">
             A full suite of hybrid workforce management tools are yours <br />
             to use, as well as access to our top 1% of talent.
           </p>
@@ -200,8 +200,8 @@ export default function Center() {
       <section className="posterTwo">
         <div className="main">
           {/* <img src={arrow} alt="" /> */}
-          <div className="inner-main-container">
-            <div className="svg-container">
+          <div className="innerMainContainer">
+            <div className="svgContainer">
               <svg
                 width="20"
                 height="26"

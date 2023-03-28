@@ -1,6 +1,6 @@
 /* ////////////////COLLAB POSTER////////////// */
 
-.collab-poster {
+.collabPoster {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
@@ -8,7 +8,7 @@
   padding: 80px 40px;
 }
 
-.collab-img-left {
+.collabImgLeft {
   width: 50%;
   color: white;
   display: flex;
@@ -16,7 +16,7 @@
   justify-content: space-between;
 }
 
-.collab-img-left h2 {
+.collabImgLeft h2 {
   font-family: "EB Garamond", sans-serif;
   font-size: 4rem;
   font-weight: 500;
@@ -24,14 +24,14 @@
   padding-bottom: 30px;
 }
 
-.collab-img-left p {
+.collabImgLeft p {
   font-family: "Gordita", sans-serif;
   font-weight: lighter;
   line-height: 30px;
   padding-bottom: 30px;
 }
 
-.collab-img-left button {
+.collabImgLeft button {
   padding: 10px 20px;
   border: none;
   border-radius: 30px;
@@ -41,7 +41,7 @@
   width: fit-content;
 }
 
-.collab-img-right {
+.collabImgRight {
   position: relative;
 }
 
@@ -84,7 +84,7 @@
   bottom: 0px;
 }
 
-.circle-text {
+.circleText {
   position: absolute;
   left: 400px;
   right: 0px;
@@ -92,35 +92,35 @@
   bottom: 0px;
 }
 
-.circle-text h3 {
+.circleText h3 {
   color: #00bf58;
   font-family: "EB Garamond", sans-serif;
   font-size: 3rem;
 }
-.circle-text p {
+.circleText p {
   color: white;
   font-family: "Gordita", sans-serif;
   width: 200px;
 }
 
-.collab-logo {
+.collabLogo {
   position: absolute;
   z-index: 3;
 }
 
-.two-circles-collab-logo {
+.twoCirclesCollabLogo {
   display: flex;
   position: absolute;
 }
 
-.collab-logo-circle1 {
+.collabLogoCircle1 {
   position: absolute;
   left: 185px;
   right: 0px;
   top: 100px;
   bottom: 0px;
 }
-.collab-logo-circle2 {
+.collabLogoCircle2 {
   position: absolute;
   left: 200px;
   right: 0px;
@@ -128,7 +128,7 @@
   bottom: 0px;
 }
 
-.collab-logo h3 {
+.collabLogo h3 {
   position: absolute;
   left: 189px;
   right: 0px;
@@ -138,12 +138,12 @@
   font-size: 1.5rem;
 }
 
-.collab-img-right img {
+.collabImgRight img {
   width: 30px;
   position: absolute;
 }
 
-.collab-img-right .slack {
+.collabImgRight .slack {
   top: 255px;
   left: 275px;
   bottom: 0;
@@ -151,7 +151,7 @@
   width: 50px;
 }
 
-.collab-img-right .microsoft {
+.collabImgRight .microsoft {
   top: 24px;
   left: 24px;
   bottom: 0;
@@ -159,7 +159,7 @@
   width: 40px;
 }
 
-.collab-img-right .twitter {
+.collabImgRight .twitter {
   top: -30px;
   left: 235px;
   bottom: 0;
@@ -167,14 +167,14 @@
   width: 26px;
 }
 
-.collab-img-right .instagram {
+.collabImgRight .instagram {
   top: 27px;
   left: 379px;
   bottom: 0;
   right: 0;
   width: 30px;
 }
-.collab-img-right .messenger {
+.collabImgRight .messenger {
   top: 198px;
   left: -2px;
   bottom: 0;
@@ -193,7 +193,7 @@
   margin-bottom: 200px;
 }
 
-.bottom-trending-list li {
+.bottomTrendingList li {
   margin-top: 15px;
   list-style: none;
   font-family: "Gordita", sans-serif;
@@ -205,6 +205,6 @@
   font-family: "Gordita", sans-serif;
 }
 
-.trendingSkillsList .trend-main {
+.trendingSkillsList .trendMain {
   color: #00bf58;
 }

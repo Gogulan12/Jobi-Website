@@ -1,6 +1,6 @@
 /* ////////////////////////SEARCH SECTION////////////////////////////// */
 
-.center-search {
+.centerSearch {
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
@@ -8,12 +8,12 @@
   justify-content: space-between;
 }
 
-.center-search .left,
-.center-search .right {
+.centerSearch .left,
+.centerSearch .right {
   width: 50%;
 }
 
-/* .left-container {
+/* .leftContainer {
   background-color: #eff6f3;
   border-radius: 50%;
 } */
@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.left-container::before {
+.leftContainer::before {
   content: "";
   position: absolute;
   background-color: #eff6f3;
@@ -36,7 +36,7 @@
   z-index: -1;
 }
 
-.first-search-section {
+.firstSearchSection {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,13 +52,13 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.068);
 }
 
-.first-section {
+.firstSection {
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
 
-.first-section button {
+.firstSection button {
   border: none;
   padding: 20px;
   border-radius: 10px;
@@ -67,7 +67,7 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.068);
 }
 
-.list-of-people ul li {
+.listOfPeople ul li {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -79,18 +79,18 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.068);
 }
 
-.list-first-half {
+.listFirstHalf {
   display: flex;
 }
 
-.list-of-people ul li img {
+.listOfPeople ul li img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-right: 15px;
 }
 
-.list-second-half {
+.listSecondHalf {
   text-align: end;
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@
   align-items: flex-end;
 }
 
-.list-second-half h4 {
+.listSecondHalf h4 {
   color: #488c61;
   border: 2px solid #488c61;
   border-radius: 3px;
@@ -108,16 +108,16 @@
   margin-bottom: 5px;
 }
 
-.list-second-half h5 {
+.listSecondHalf h5 {
   font-family: "Gordita", sans-serif;
   font-size: 0.7rem;
 }
 
-.list-second-half h5 span {
+.listSecondHalf h5 span {
   color: lightgrey;
 }
 
-.right .right-question {
+.right .rightQuestion {
   font-family: "Gordita", sans-serif;
   color: #00bf58;
 }
@@ -135,19 +135,19 @@
   padding: 30px 0;
 }
 
-.right .right-seamless {
+.right .rightSeamless {
   font-family: "Gordita", sans-serif;
   padding-bottom: 30px;
   color: rgba(0, 0, 0, 0.699);
   border-bottom: 1px solid rgba(211, 211, 211, 0.678);
 }
 
-.right .right-toptalent {
+.right .rightToptalent {
   padding-bottom: 30px;
   /* border-bottom: 1px solid rgba(211, 211, 211, 0.678); */
 }
 
-.right .right-payment {
+.right .rightPayment {
   padding-bottom: 50px;
 }
 
@@ -159,24 +159,24 @@
   color: white;
 }
 
-.seamless-container {
+.seamlessContainer {
   display: flex;
   justify-content: space-between;
 }
 
-.seamless-image {
+.seamlessImage {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.toptalent-container {
+.toptalentContainer {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(211, 211, 211, 0.678);
 }
 
-.toptalent-image {
+.toptalentImage {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -214,7 +214,7 @@
   color: #dfa79c;
 }
 
-.posterOne .left .posterone-paragraph {
+.posterOne .left .posteroneParagraph {
   color: white;
   padding-top: 30px;
   padding-bottom: 50px;
@@ -293,39 +293,39 @@
   justify-content: flex-end;
 }
 
-.posterTwo .main .inner-main-container {
+.posterTwo .main .innerMainContainer {
   width: 40%;
   z-index: 2;
 }
 
-.inner-main-container {
+.innerMainContainer {
   padding-top: 50px;
 }
 
-.inner-main-container svg {
+.innerMainContainer svg {
   box-sizing: content-box;
   padding: 15px 20px;
   margin-left: 5px;
 }
 
-.inner-main-container .svg-container {
+.innerMainContainer .svgContainer {
   width: fit-content;
   background-color: #00bf58;
   border-radius: 50%;
 }
 
-.inner-main-container h2 {
+.innerMainContainer h2 {
   color: white;
   font-family: "EB Garamond", sans-serif;
   font-size: 3.5rem;
   padding-top: 20px;
 }
 
-.inner-main-container h2 span {
+.innerMainContainer h2 span {
   color: #00bf58;
 }
 
-.inner-main-container p {
+.innerMainContainer p {
   font-family: "Gordita", sans-serif;
   color: white;
   font-weight: lighter;
