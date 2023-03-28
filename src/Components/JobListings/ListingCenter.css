@@ -1,0 +1,147 @@
+.ListTopCenter {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.ListTopCenterRight {
+  display: flex;
+  align-items: center;
+}
+
+.ListTopCenterRight label {
+  padding-right: 20px;
+}
+
+.ListTopCenterRight select {
+  border: none;
+  padding: 7px 20px;
+  background-color: rgba(211, 211, 211, 0.486);
+  border-radius: 30px;
+  width: 150px;
+}
+
+.imageContainerCenterFilter {
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  padding: 4px 7px;
+  border-radius: 50%;
+}
+
+/* //////////////////Individaul Job Posting///////////////// */
+
+.jobPostings {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gordita", sans-serif;
+  justify-content: space-between;
+}
+
+.job {
+  width: 31%;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.logoAndBookmark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoAndBookmark img {
+  width: 50px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.bookmarkImageContainer {
+  border: 1px solid lightgray;
+  padding: 8px 10px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.job h5 {
+  margin: 40px 0 20px 0;
+  background-color: #e7f6ef;
+  padding: 5px;
+  color: #00bf58;
+  width: fit-content;
+  border-radius: 3px;
+}
+
+.job h4 {
+  font-size: 1.2rem;
+}
+
+.job p {
+  font-size: 0.8rem;
+  margin: 20px 0;
+}
+
+.placeAndApply {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  font-size: 0.8rem;
+  align-items: center;
+}
+
+.placeAndApply .jobLocation {
+  font-size: 0.8rem;
+}
+
+.placeAndApply button {
+  color: white;
+  background-color: #31795a;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 17px;
+  text-transform: uppercase;
+}
+
+/* /////////////////////Page count for Center /////////////// */
+
+.pageCount {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.pageCount ul {
+  display: flex;
+  align-items: center;
+}
+
+.pageCount ul li {
+  list-style: none;
+  margin-right: 20px;
+  font-family: "Gordita", sans-serif;
+  color: #31795a;
+}
+
+.pageCount ul .pageActive {
+  background-color: #31795a;
+  padding: 4px 13px;
+  color: white;
+  border-radius: 50%;
+}
+
+.arrowJobPages {
+  display: flex;
+  align-items: center;
+}
+
+.arrowCorner {
+  margin-left: -9px;
+}

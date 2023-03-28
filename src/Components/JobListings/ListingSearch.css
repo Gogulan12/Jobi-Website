@@ -42,3 +42,96 @@
   padding-bottom: 15px;
   font-family: "Gordita", sans-serif;
 }
+
+.keywordInputContainer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+
+.keywordInputContainer input {
+  border: none;
+}
+
+.filterSelect {
+  border: none;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+
+/* //////////////////// BOTTOM CHECKBOXES //////////////////*/
+
+.checkboxes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.jobtype,
+.experience,
+.salary {
+  display: flex;
+}
+
+.jobtype label {
+  padding-right: 20px;
+  font-family: "Gordita", sans-serif;
+  font-size: 0.8rem;
+}
+
+.jobtype form label,
+.jobtype form input {
+  margin-bottom: 15px;
+}
+.jobtype form input {
+  margin-right: 10px;
+}
+
+.experience label {
+  padding-right: 20px;
+  font-family: "Gordita", sans-serif;
+  font-size: 0.8rem;
+}
+
+.experience form label,
+.experience form input {
+  margin-bottom: 15px;
+}
+.experience form input {
+  margin-right: 10px;
+}
+
+/* ///////Salary Section////////////////// */
+
+.salary {
+  width: 40%;
+}
+.salary label {
+  padding-right: 20px;
+  width: 40%;
+  font-family: "Gordita", sans-serif;
+  font-size: 0.8rem;
+}
+
+.numberInputFields {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.numberInputFields p {
+  padding: 0 5px;
+}
+
+.numberInputFields input {
+  width: 60px;
+}
+
+.salarySecond {
+  width: 100%;
+}
+
+.range {
+  width: 100%;
+}

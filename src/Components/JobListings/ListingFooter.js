@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./ListingFooter.css";
+
 export default function ListingFooter() {
   return (
     <div>
