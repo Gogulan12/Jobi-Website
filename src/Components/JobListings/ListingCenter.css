@@ -40,8 +40,13 @@
   justify-content: space-between;
 }
 
-.job {
+.jobPostings a {
   width: 31%;
+  text-decoration: none;
+}
+
+.job {
+  width: 100%;
   padding: 20px;
   border: 1px solid lightgray;
   border-radius: 10px;

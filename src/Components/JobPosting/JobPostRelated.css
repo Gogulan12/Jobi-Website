@@ -1,0 +1,31 @@
+.JobPostRelatedContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.RelatedTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0px;
+}
+
+.RelatedArrows {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.RelatedJobPosts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.RelatedJobPosts a {
+  width: 31%;
+  text-decoration: none;
+}
+
+.RelatedJobPosts a .job {
+  width: 100%;
+}

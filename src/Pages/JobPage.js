@@ -1,15 +1,17 @@
 import React from "react";
+import JobPostFooter from "../Components/JobPosting/JobPostFooter";
+import JobPostInfo from "../Components/JobPosting/JobPostInfo";
+
+import JobPostNavigation from "../Components/JobPosting/JobPostNavigation";
+import JobPostRelated from "../Components/JobPosting/JobPostRelated";
 
 export default function JobPage() {
   return (
     <div>
-      <h2>Job</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-        voluptatem quo? Sint incidunt commodi cumque quis assumenda totam
-        dolorum nisi, corporis fugiat blanditiis perspiciatis eos autem beatae
-        reprehenderit suscipit voluptates.
-      </p>
+      <JobPostNavigation />
+      <JobPostInfo />
+      <JobPostRelated />
+      <JobPostFooter />
     </div>
   );
 }

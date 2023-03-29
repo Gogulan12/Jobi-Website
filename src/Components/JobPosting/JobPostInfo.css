@@ -1,0 +1,182 @@
+.JobInfoContainer {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.jobDescription {
+  width: 70%;
+}
+
+.jobDesrciption h2,
+.jobDescription h3,
+.jobDescription p,
+.jobDescription ul li {
+  font-family: "Gordita", sans-serif;
+  line-height: 35px;
+}
+
+.jobDescription h3 {
+  margin-top: 30px;
+}
+
+.responsibilityList li,
+.requiredSkills li,
+.benefitsList li {
+  padding: 10px 0px;
+  margin-left: 50px;
+  color: grey;
+}
+
+.jobDescriptionText p,
+.overview p {
+  color: grey;
+  padding: 15px 0;
+}
+
+.jobLinks {
+  display: flex;
+}
+.jobLinks li {
+  list-style: none;
+  margin-right: 10px;
+  border: 1px solid #224034;
+  padding: 2px 17px 3px 10px;
+  border-radius: 5px;
+  color: #224034;
+}
+
+.jobLinks li .Links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jobLinks li .Links p {
+  padding-left: 5px;
+  font-size: 0.8rem;
+}
+
+.jobDescription h2 {
+  font-size: 2.5rem;
+  padding: 10px 0 30px;
+}
+
+.jobDate {
+  color: grey;
+}
+
+.jobDate span {
+  color: black;
+}
+
+/* ///////////////////Right Side/////////////////// */
+.JobApply {
+  width: 30%;
+}
+
+.JobApplyContainer img {
+  width: 40px;
+}
+.JobApplyContainer {
+  background-color: #eff6f3;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.companyLogoBox {
+  text-align: center;
+  font-family: "Gordita", sans-serif;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.541);
+}
+
+.companyLogoBoxImageContainer {
+  background-color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.companyLogoBox h3 {
+  margin-bottom: 30px;
+}
+
+.companyLogoBox button {
+  background-color: #31795a;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  font-family: "Gordita", sans-serif;
+  margin-bottom: 20px;
+}
+
+.companyJotNotes {
+  display: flex;
+  gap: 30px;
+  margin: 50px 0 30px 0;
+}
+
+.companyJotNotes h4 {
+  font-size: 0.8rem;
+  color: gray;
+  font-family: "Gordita", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+.companyJotNotes p {
+  font-size: 0.8rem;
+  font-family: "Gordita", sans-serif;
+  margin-bottom: 15px;
+}
+
+.skillslistNotes ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skillslistNotes ul li {
+  list-style: none;
+  font-size: 0.7rem;
+  border: 1px solid grey;
+  padding: 1px 15px 3px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.applyButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.applyButton button {
+  background-color: #d2f34c;
+  color: #244034;
+  padding: 10px 60px;
+  border-radius: 40px;
+  border: none;
+  margin: 40px 0;
+  text-align: center;
+}
