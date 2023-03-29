@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import JobListing from "./Pages/JobListing";
 import JobPage from "./Pages/JobPage";
+import ErrorPage from "./Pages/ErrorPage";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/listing/job">
             <JobPage />
+          </Route>
+          <Route path="/404">
+            <ErrorPage />
           </Route>
         </Switch>
       </BrowserRouter>

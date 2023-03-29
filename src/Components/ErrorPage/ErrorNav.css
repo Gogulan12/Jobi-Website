@@ -1,0 +1,148 @@
+.errorlistingNav {
+  background-color: white;
+}
+
+.errorlistingNav nav {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.errorlistLogo {
+  display: flex;
+  align-items: center;
+}
+
+.errorlistLogoCircle {
+  display: flex;
+}
+.errorcircle2 {
+  margin: -15px;
+}
+
+.errorlistLogo h2 {
+  margin-left: 30px;
+  font-family: "Alike Angular", sans-serif;
+  color: black;
+  font-weight: 100;
+}
+
+.errorcategory {
+  display: flex;
+  align-items: center;
+}
+
+.errorcategoryContainer {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #0160421a;
+  border-radius: 25px;
+  color: #244034;
+  font-weight: 100;
+}
+
+.errorcategoryContainer h3 {
+  margin-left: 7px;
+  font-size: 0.9rem;
+}
+
+.errorlistingNav nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.errorlistingNav nav ul li {
+  list-style: none;
+  padding: 0 15px;
+  color: black;
+}
+
+.errorlistingNav nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.errorlistNavPosting {
+  display: flex;
+  align-items: center;
+}
+
+.errorlistNavPosting .errorposting {
+  color: black;
+  padding: 0 15px;
+  border-right: 1px solid lightgray;
+}
+
+.errorlistNavPosting .errorlogin {
+  color: black;
+  margin: 0 15px;
+}
+
+.errorlistNavPosting button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: #d2f34c;
+  font-weight: bold;
+}
+
+.errorInfo {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorInfoContainer {
+  width: 80%;
+  display: flex;
+  gap: 2rem;
+}
+
+.errorInfoContainer img {
+  width: 50%;
+}
+
+.errorTextContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.errorTextContainer h2 {
+  color: #31795a;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+.errorTextContainer h3 {
+  color: black;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 4rem;
+  font-weight: lighter;
+}
+
+.errorTextContainer h4 {
+  font-family: "Gordita", sans-serif;
+  font-weight: lighter;
+  line-height: 40px;
+  margin: 20px 0;
+}
+
+.errorTextContainer button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  width: 100%;
+  border: none;
+  background-color: #d2f34c;
+  border-radius: 40px;
+  font-family: "Gordita", sans-serif;
+}
