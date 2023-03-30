@@ -88,6 +88,8 @@
   color: black;
   margin-right: 0px;
   font-weight: normal;
+  padding: 0;
+  margin: 0;
 }
 
 .topNavRight a {
