@@ -172,7 +172,9 @@ export default function JobPostInfo() {
                 <img src={cocacola} alt="" />
               </div>
               <h3>Coca Cola Inc.</h3>
-              <button>Visit website</button>
+              <a href="/404">
+                <button>Visit website</button>
+              </a>
             </div>
             <div className="companyJotNotes">
               <div className="infoleft">

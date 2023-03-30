@@ -125,6 +125,7 @@
   border-radius: 30px;
   font-family: "Gordita", sans-serif;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .companyJotNotes {
