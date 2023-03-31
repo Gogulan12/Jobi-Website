@@ -1,10 +1,10 @@
 import React from "react";
 
-import image1 from "../Assets/portrait-1.jpg";
-import image2 from "../Assets/portrait-2.jpg";
-import image3 from "../Assets/portrait-3.jpg";
-import image4 from "../Assets/portrait-4.jpg";
-import image5 from "../Assets/portrait-5.jpg";
+import image1 from "../../Assets/portrait-1.jpg";
+import image2 from "../../Assets/portrait-2.jpg";
+import image3 from "../../Assets/portrait-3.jpg";
+import image4 from "../../Assets/portrait-4.jpg";
+import image5 from "../../Assets/portrait-5.jpg";
 import "./Quote.css";
 
 export default function Quotes() {

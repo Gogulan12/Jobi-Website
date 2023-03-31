@@ -31,16 +31,46 @@
   background-color: white;
 }
 
+#prev,
+#next {
+  cursor: pointer;
+}
+
 /* /////////////// list of services /////////////// */
 
-.imageList {
+/* .imageList {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+} */
+
+#serviceWrapper {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .imageBox {
-  width: 23%;
+  /* width: 23%; */
+  width: 288px;
   height: 320px;
   /* background-color: lightblue; */
   position: relative;
@@ -72,22 +102,22 @@
 }
 
 .wordpress {
-  background-image: url(../Assets/wordpress.jpg);
+  background-image: url(../../Assets/wordpress.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .editing {
-  background-image: url(../Assets/editing.jpg);
+  background-image: url(../../Assets/editing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .branding {
-  background-image: url(../Assets/design.jpg);
+  background-image: url(../../Assets/design.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .support {
-  background-image: url(../Assets/customerSupport.jpg);
+  background-image: url(../../Assets/customerSupport.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

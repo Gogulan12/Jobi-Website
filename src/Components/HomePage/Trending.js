@@ -1,21 +1,43 @@
-import React from "react";
-import ui from "../Assets/ui.svg";
-import dev from "../Assets/dev.svg";
-import market from "../Assets/market.svg";
-import phone from "../Assets/phone.svg";
-import edit from "../Assets/edit.svg";
-import account from "../Assets/accounting.svg";
+import React, { useRef, useState, useEffect } from "react";
+import ui from "../../Assets/ui.svg";
+import dev from "../../Assets/dev.svg";
+import market from "../../Assets/market.svg";
+import phone from "../../Assets/phone.svg";
+import edit from "../../Assets/edit.svg";
+import account from "../../Assets/accounting.svg";
 
 import "./Trending.css";
 
 export default function Trending() {
+  const [count, setCount] = useState(0);
+
+  let box = useRef(null);
+
+  useEffect(() => {
+    setCount((v) => v + 1);
+  }, []);
+
+  const leftScroll = (e) => {
+    e.preventDefault();
+
+    let width = box.current.clientWidth;
+    box.current.scrollLeft = box.current.scrollLeft - width;
+  };
+
+  const rightScroll = (e) => {
+    e.preventDefault();
+
+    let width = box.current.clientWidth;
+    box.current.scrollLeft = box.current.scrollLeft + width;
+  };
+
   return (
     <div>
       <section className="trendingFirst">
         <div className="trendingTitle">
           <h2>Trending Services</h2>
           <div className="trendingButton">
-            <button className="firstButton">
+            <button className="firstButton" id="prev" onClick={leftScroll}>
               <svg
                 width="8"
                 height="13"
@@ -31,7 +53,7 @@ export default function Trending() {
                 />
               </svg>
             </button>
-            <button>
+            <button onClick={rightScroll} id="next">
               <svg
                 width="8"
                 height="13"
@@ -49,26 +71,50 @@ export default function Trending() {
             </button>
           </div>
         </div>
-        <div className="imageList">
-          <div className="imageBox wordpress">
-            <p>
-              WordPress <span>Development.</span>
-            </p>
-          </div>
-          <div className="imageBox editing">
-            <p>
-              Audio & <span>Video Editing.</span>
-            </p>
-          </div>
-          <div className="imageBox branding">
-            <p>
-              Product & <span>Branding Design</span>
-            </p>
-          </div>
-          <div className="imageBox support">
-            <p>
-              Admin & <span>Customer Support</span>
-            </p>
+        <div id="serviceWrapper">
+          <div id="carousel" ref={box}>
+            <div className="imageList" id="content">
+              <div className="imageBox wordpress">
+                <p>
+                  WordPress <span>Development.</span>
+                </p>
+              </div>
+              <div className="imageBox editing">
+                <p>
+                  Audio & <span>Video Editing.</span>
+                </p>
+              </div>
+              <div className="imageBox branding">
+                <p>
+                  Product & <span>Branding Design</span>
+                </p>
+              </div>
+              <div className="imageBox support">
+                <p>
+                  Admin & <span>Customer Support</span>
+                </p>
+              </div>
+              <div className="imageBox support">
+                <p>
+                  Admin & <span>Customer Support</span>
+                </p>
+              </div>
+              <div className="imageBox support">
+                <p>
+                  Admin & <span>Customer Support</span>
+                </p>
+              </div>
+              <div className="imageBox support">
+                <p>
+                  Admin & <span>Customer Support</span>
+                </p>
+              </div>
+              <div className="imageBox support">
+                <p>
+                  Admin & <span>Customer Support</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -254,7 +254,7 @@
 }
 
 .posterOne .right {
-  background-image: url("../Assets/person-center.jpg");
+  background-image: url("../../Assets/person-center.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 45%;
@@ -266,7 +266,7 @@
   margin: 0 auto;
   max-width: 1200px;
   /* background-color: grey; */
-  background-image: url("../Assets/poster2.jpg");
+  background-image: url("../../Assets/poster2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

@@ -1,11 +1,11 @@
 import React from "react";
 
 import "./Collaboration.css";
-import slack from "../Assets/slack-logo.svg";
-import messenger from "../Assets/messanger-logo.svg";
-import microsoft from "../Assets/microsoft-logo.svg";
-import twitter from "../Assets/twitter-logo.svg";
-import instagram from "../Assets/instagram-logo.svg";
+import slack from "../../Assets/slack-logo.svg";
+import messenger from "../../Assets/messanger-logo.svg";
+import microsoft from "../../Assets/microsoft-logo.svg";
+import twitter from "../../Assets/twitter-logo.svg";
+import instagram from "../../Assets/instagram-logo.svg";
 
 export default function Collaboration() {
   return (

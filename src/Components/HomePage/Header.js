@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css";
-import adobe from "../Assets/adobe.svg";
-import google from "../Assets/google.svg";
-import payoneer from "../Assets/payoneer.svg";
-import header from "../Assets/header-image.jpg";
+import adobe from "../../Assets/adobe.svg";
+import google from "../../Assets/google.svg";
+import payoneer from "../../Assets/payoneer.svg";
+import header from "../../Assets/header-image.jpg";
 
 export default function Header() {
   return (

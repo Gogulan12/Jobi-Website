@@ -1,11 +1,11 @@
 import React from "react";
-import person from "../Assets/person-center.jpg";
+// import person from "../Assets/person-center.jpg";
 // import arrow from "../Assets/arrow.svg";
 import "./Center.css";
-import personOne from "../Assets/search-person-one.jpg";
-import personTwo from "../Assets/search-person-two.jpg";
-import personThree from "../Assets/search-person-three.jpg";
-import personFour from "../Assets/search-person-four.jpg";
+import personOne from "../../Assets/search-person-one.jpg";
+import personTwo from "../../Assets/search-person-two.jpg";
+import personThree from "../../Assets/search-person-three.jpg";
+import personFour from "../../Assets/search-person-four.jpg";
 
 export default function Center() {
   return (
