@@ -1,6 +1,5 @@
-import React from "react";
-// import person from "../Assets/person-center.jpg";
-// import arrow from "../Assets/arrow.svg";
+import React, { useState, useRef } from "react";
+
 import "./Center.css";
 import personOne from "../../Assets/search-person-one.jpg";
 import personTwo from "../../Assets/search-person-two.jpg";
@@ -8,6 +7,23 @@ import personThree from "../../Assets/search-person-three.jpg";
 import personFour from "../../Assets/search-person-four.jpg";
 
 export default function Center() {
+  const [isActive1, setActive1] = useState("false");
+  const [isActive2, setActive2] = useState("false");
+  const [isActive3, setActive3] = useState("false");
+
+  let panel = useRef(null);
+
+  const ToggleClass = () => {
+    setActive1(!isActive1);
+  };
+
+  const ToggleClass2 = () => {
+    setActive2(!isActive2);
+  };
+  const ToggleClass3 = () => {
+    setActive3(!isActive3);
+  };
+
   return (
     <div>
       <section className="centerSearch">
@@ -121,50 +137,75 @@ export default function Center() {
           <h2>
             World of talent at <br /> your fingertips
           </h2>
-          <div className="seamlessContainer">
-            <h3>Seamless Search</h3>
-            <div className="seamlessImage">
-              <svg
-                width="16"
-                height="10"
-                viewBox="0 0 16 10"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+          <div className="accordionlist">
+            <div className="accord accordOne">
+              <button
+                onClick={ToggleClass}
+                className={`accordion ${isActive1 ? null : "active"}`}
               >
-                <path
-                  d="M14.1714 8.84363L7.17254 2.00021L1.00012 8.84363"
-                  stroke="#005025"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
+                Seamless Search
+              </button>
+              <div
+                className="panel"
+                ref={panel}
+                style={{
+                  height: isActive1 ? "0px" : "100px",
+                  marginBottom: isActive1 ? "0px" : "20px",
+                }}
+              >
+                <p>
+                  It only takes 5 minutes. Set-up is smooth and simple, with
+                  fully customisable page design to reflect your brand.
+                </p>
+              </div>
+            </div>
+
+            <div className="accord accordTwo">
+              <button
+                onClick={ToggleClass2}
+                className={`accordion ${isActive2 ? null : "active"}`}
+              >
+                Hire top talents
+              </button>
+              <div
+                className="panel"
+                ref={panel}
+                style={{
+                  height: isActive2 ? "0px" : "100px",
+                  marginBottom: isActive2 ? "0px" : "20px",
+                }}
+              >
+                <p>
+                  Looking to connect the best candidates with the most desirable
+                  positions in the market.
+                </p>
+              </div>
+            </div>
+
+            <div className=" accordThree">
+              <button
+                onClick={ToggleClass3}
+                className={`accordion ${isActive3 ? null : "active"}`}
+              >
+                Protected payments, every time
+              </button>
+              <div
+                className="panel"
+                ref={panel}
+                style={{
+                  height: isActive3 ? "0px" : "100px",
+                  marginBottom: isActive3 ? "0px" : "20px",
+                }}
+              >
+                <p>
+                  Jobi has implemented multiple layers of security measures to
+                  protect all payment transactions and ensure the highest level
+                  of protection for our clients' financial data.
+                </p>
+              </div>
             </div>
           </div>
-          <p className="rightSeamless">
-            It only takes 5 minutes. Set-up is smooth and simple, with fully
-            costomisable page design to relfect your brand.
-          </p>
-          <div className="toptalentContainer">
-            <h3 className="rightToptalent">Hire top talents</h3>
-            <div className="toptalentImage">
-              <svg
-                width="16"
-                height="10"
-                viewBox="0 0 16 10"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1 1.63794L7.99884 8.48136L14.1713 1.63794"
-                  stroke="#005025"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </div>
-          </div>
-          <h3 className="rightPayment">Protected payments, every time</h3>
-          <button>Learn More</button>
+          <button className="learnMoreButton">Learn More</button>
         </div>
       </section>
       <section className="posterOne">
