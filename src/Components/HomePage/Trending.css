@@ -27,6 +27,18 @@
   background-color: #f0f0f0;
 }
 
+.trendingButton button:hover {
+  background-color: #00bf58;
+}
+
+.trendingButton button:active {
+  transform: scale(0.9);
+}
+
+.trendingButton button:hover path {
+  stroke: white;
+}
+
 .trending-button .firstButton {
   background-color: white;
 }
@@ -66,6 +78,7 @@
   grid-auto-flow: column;
   margin: auto;
   box-sizing: border-box;
+  margin-top: 30px;
 }
 
 .imageBox {
@@ -74,6 +87,7 @@
   height: 320px;
   /* background-color: lightblue; */
   position: relative;
+  cursor: pointer;
 }
 
 .imageBox::before {
@@ -122,6 +136,30 @@
   background-repeat: no-repeat;
 }
 
+.network {
+  background-image: url(../../Assets/network.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.printing {
+  background-image: url(../../Assets/managedprint.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.consulting {
+  background-image: url(../../Assets/consulting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cloud {
+  background-image: url(../../Assets/cloud.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* ///////////Explore the marketplace/////////////// */
 
 .marketplaceTitle {
@@ -150,7 +188,13 @@
   color: #00ba56;
   margin-top: 7px;
   padding-bottom: 7px;
+  /* border-bottom: 2px solid #00ba56;  */
+}
+
+.marketplaceTitle a:hover {
+  /* padding-bottom: 7px; */
   border-bottom: 2px solid #00ba56;
+  transition: 0.3s ease-in-out;
 }
 
 .marketplaceTitle a svg {
@@ -181,10 +225,15 @@
   padding: 50px 40px;
   justify-content: space-between;
   border-radius: 60px;
+  cursor: pointer;
 }
 
-.exploreList ul .exploreListOne {
+/* .exploreList ul .exploreListOne {
   border: 1px solid #00ba56;
+} */
+.exploreList ul li:hover {
+  border: 1px solid #00ba56;
+  transform: scale(1.05);
 }
 
 .exploreList ul li img {

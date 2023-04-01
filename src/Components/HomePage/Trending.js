@@ -12,6 +12,7 @@ export default function Trending() {
   const [count, setCount] = useState(0);
 
   let box = useRef(null);
+  const gap = 16;
 
   useEffect(() => {
     setCount((v) => v + 1);
@@ -21,14 +22,14 @@ export default function Trending() {
     e.preventDefault();
 
     let width = box.current.clientWidth;
-    box.current.scrollLeft = box.current.scrollLeft - width;
+    box.current.scrollLeft = box.current.scrollLeft - (width + gap);
   };
 
   const rightScroll = (e) => {
     e.preventDefault();
 
     let width = box.current.clientWidth;
-    box.current.scrollLeft = box.current.scrollLeft + width;
+    box.current.scrollLeft = box.current.scrollLeft + width + gap;
   };
 
   return (
@@ -47,7 +48,8 @@ export default function Trending() {
               >
                 <path
                   d="M6.83984 1.69199L1.99984 6.64191L6.83984 11.0073"
-                  stroke="#DADADA"
+                  // stroke="#DADADA"
+                  stroke="#005025"
                   strokeWidth="2"
                   strokeLinecap="round"
                 />
@@ -94,24 +96,24 @@ export default function Trending() {
                   Admin & <span>Customer Support</span>
                 </p>
               </div>
-              <div className="imageBox support">
+              <div className="imageBox network">
                 <p>
-                  Admin & <span>Customer Support</span>
+                  Network & <span>Security</span>
                 </p>
               </div>
-              <div className="imageBox support">
+              <div className="imageBox printing">
                 <p>
-                  Admin & <span>Customer Support</span>
+                  Managed <span>Print Services</span>
                 </p>
               </div>
-              <div className="imageBox support">
+              <div className="imageBox consulting">
                 <p>
-                  Admin & <span>Customer Support</span>
+                  IT <span>Consulting</span>
                 </p>
               </div>
-              <div className="imageBox support">
+              <div className="imageBox cloud">
                 <p>
-                  Admin & <span>Customer Support</span>
+                  Cloud <span>Services</span>
                 </p>
               </div>
             </div>
