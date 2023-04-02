@@ -62,21 +62,57 @@
   color: gray;
 }
 
-/*////////////////IMAGES AT THE BOTTOM/////////// */
+/* carousel */
 
+#quoteWrapper {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+}
+
+#quoteCarousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#quoteCarousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#quoteContent {
+  display: grid;
+  /* grid-gap: 16px; */
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.quote {
+  /* width: 100%; */
+  width: 1000px;
+  position: relative;
+}
+
+/*////////////////IMAGES AT THE BOTTOM/////////// */
 
 .portrait {
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
+
+.quoteActive {
+  border: 5px solid green;
+}
+
 .quoteImages {
-  width: 75%;
+  /* width: 75%; */
+  width: 500px;
   display: flex;
   justify-content: space-between;
 }
-
-
 
 /* ///////////////ARROWS TO THE SIDE///////////// */
 
@@ -87,17 +123,49 @@
   align-items: center;
 }
 
-.leftArrow svg {
+/* .leftArrow svg {
   box-sizing: content-box;
   padding: 10px 15px;
   border: 1px solid grey;
   border-radius: 50%;
+} */
+
+.leftArrow button,
+.rightArrow button {
+  box-sizing: content-box;
+  padding: 10px 16px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.rightArrow svg {
+.leftArrow button,
+.rightArrow button {
+  /* padding: 5px 10px; */
+  color: #005025;
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+}
+
+.leftArrow button:hover,
+.rightArrow button:hover {
+  background-color: #00bf58;
+}
+
+.leftArrow button:active,
+.rightArrow button:active {
+  transform: scale(0.9);
+}
+
+.leftArrow button:hover path,
+.rightArrow button:hover path {
+  stroke: white;
+}
+
+/* .rightArrow svg {
   box-sizing: content-box;
   padding: 10px 15px;
   border: 1px solid #00bf58;
   border-radius: 50%;
   background-color: #00bf58;
-}
+} */

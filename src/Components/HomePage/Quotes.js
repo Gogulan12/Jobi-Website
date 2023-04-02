@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 import image1 from "../../Assets/portrait-1.jpg";
 import image2 from "../../Assets/portrait-2.jpg";
@@ -8,22 +8,54 @@ import image5 from "../../Assets/portrait-5.jpg";
 import "./Quote.css";
 
 export default function Quotes() {
+  const [count, setCount] = useState(0);
+  const [active, setActive] = useState("false");
+
+  let quoteBox = useRef(null);
+  // const gap = 16;
+
+  useEffect(() => {
+    setCount((v) => v + 1);
+  }, []);
+
+  const leftScroll = (e) => {
+    // e.preventDefault();
+
+    let width = quoteBox.current.clientWidth;
+
+    quoteBox.current.scrollLeft = quoteBox.current.scrollLeft - width;
+    // console.log(quoteBox.current.scrollLeft);
+    // if (quoteBox.current.scrollLeft < 1000) {
+    //   setActive("true");
+    // }
+  };
+
+  const rightScroll = (e) => {
+    // e.preventDefault();
+
+    let width = quoteBox.current.clientWidth;
+    quoteBox.current.scrollLeft = quoteBox.current.scrollLeft + width;
+    // console.log(quoteBox.current.scrollLeft);
+  };
+
   return (
     <div className="quoteSection">
       <div className="leftArrow">
-        <svg
-          width="11"
-          height="18"
-          viewBox="0 0 11 18"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10 16.5015L1.92308 9.00146L10 1.50146"
-            stroke="black"
-            strokeWidth="2"
-          />
-        </svg>
+        <button onClick={leftScroll}>
+          <svg
+            width="11"
+            height="18"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 16.5015L1.92308 9.00146L10 1.50146"
+              stroke="black"
+              strokeWidth="2"
+            />
+          </svg>
+        </button>
       </div>
       <div className="quoteCenter">
         <svg
@@ -47,26 +79,130 @@ export default function Quotes() {
           Check what these clients <br />
           have to say.
         </h2>
-        <h3>
-          "Very easy to set-up. I had no experience with <br /> hosting before
-          signing up with HostGator but they've <br /> made everthing seem
-          simple."
-        </h3>
-        <div className="quoteWriter">
-          <svg
-            className="quoteLine"
-            width="31"
-            height="3"
-            viewBox="0 0 31 3"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
-          </svg>
+        <div id="quoteWrapper">
+          <div id="quoteCarousel" ref={quoteBox}>
+            <div className="quoteList" id="quoteContent">
+              <div className="quote quote1">
+                <h3>
+                  "I've never had such a positive experience with a job service
+                  before. <br /> They really took the time to understand my
+                  needs <br /> and find the perfect job for me."
+                </h3>
+                <div className="quoteWriter">
+                  <svg
+                    className="quoteLine"
+                    width="31"
+                    height="3"
+                    viewBox="0 0 31 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
+                  </svg>
 
-          <p>
-            Rashed ka. <span>Italy</span>
-          </p>
+                  <p>
+                    Angelique M. <span>United States</span>
+                  </p>
+                </div>
+              </div>
+              <div className="quote quote2">
+                <h3>
+                  "I was feeling really discouraged about my job search <br />{" "}
+                  until I found this job service. Their team was so supportive
+                  and <br /> encouraging, and they helped me find a job that I
+                  love."
+                </h3>
+                <div className="quoteWriter">
+                  <svg
+                    className="quoteLine"
+                    width="31"
+                    height="3"
+                    viewBox="0 0 31 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
+                  </svg>
+
+                  <p>
+                    Edgar C. <span>Canada</span>
+                  </p>
+                </div>
+              </div>
+              <div className="quote quote3">
+                <h3>
+                  "I can't thank this job service enough for all of their help.
+                  <br /> They went above and beyond to connect me with employers
+                  and <br /> provided valuable advice throughout the job search
+                  process."
+                </h3>
+                <div className="quoteWriter">
+                  <svg
+                    className="quoteLine"
+                    width="31"
+                    height="3"
+                    viewBox="0 0 31 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
+                  </svg>
+
+                  <p>
+                    Phyllis F. <span>Italy</span>
+                  </p>
+                </div>
+              </div>
+              <div className="quote quote4">
+                <h3>
+                  "I was blown away by the professionalism and expertise of this
+                  job service. <br /> They helped me craft a winning resume and
+                  prepare for interviews, <br /> which ultimately led to me
+                  landing my dream job."
+                </h3>
+                <div className="quoteWriter">
+                  <svg
+                    className="quoteLine"
+                    width="31"
+                    height="3"
+                    viewBox="0 0 31 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
+                  </svg>
+
+                  <p>
+                    Elaine R. <span>Finland</span>
+                  </p>
+                </div>
+              </div>
+              <div className="quote quote5">
+                <h3>
+                  "I would highly recommend this job service to anyone <br />
+                  looking for help with their job search. The team is
+                  knowledgeable, responsive, <br /> and genuinely cares about
+                  helping their clients succeed."
+                </h3>
+                <div className="quoteWriter">
+                  <svg
+                    className="quoteLine"
+                    width="31"
+                    height="3"
+                    viewBox="0 0 31 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 1.00146H31" stroke="black" strokeWidth="2" />
+                  </svg>
+
+                  <p>
+                    Raymond M. <span>Australia</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="quoteImages">
@@ -79,19 +215,21 @@ export default function Quotes() {
       </div>
 
       <div className="rightArrow">
-        <svg
-          width="11"
-          height="18"
-          viewBox="0 0 11 18"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1 1.50146L9.07692 9.00146L1 16.5015"
-            stroke="white"
-            strokeWidth="2"
-          />
-        </svg>
+        <button onClick={rightScroll}>
+          <svg
+            width="11"
+            height="18"
+            viewBox="0 0 11 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 1.50146L9.07692 9.00146L1 16.5015"
+              stroke="black"
+              strokeWidth="2"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   );

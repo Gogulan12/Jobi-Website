@@ -19,14 +19,14 @@ export default function Trending() {
   }, []);
 
   const leftScroll = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     let width = box.current.clientWidth;
     box.current.scrollLeft = box.current.scrollLeft - (width + gap);
   };
 
   const rightScroll = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     let width = box.current.clientWidth;
     box.current.scrollLeft = box.current.scrollLeft + width + gap;
