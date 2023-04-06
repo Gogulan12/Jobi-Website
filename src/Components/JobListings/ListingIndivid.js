@@ -28,7 +28,7 @@ export default function ListingIndivid({ jobs }) {
             </div>
           </div>
 
-          <h5>{job.expertiseLevel}</h5>
+          <h5>{job.contractType}</h5>
           <Link to={`/listing/${job.id}`}>
             <h4>{job.title}</h4>
           </Link>
