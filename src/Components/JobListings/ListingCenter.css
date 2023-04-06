@@ -31,6 +31,14 @@
 
 /* //////////////////Individaul Job Posting///////////////// */
 
+.job-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
 .jobPostings {
   margin: 0 auto;
   max-width: 1200px;
@@ -46,7 +54,7 @@
 }
 
 .job {
-  width: 100%;
+  width: 320px;
   padding: 20px;
   border: 1px solid lightgray;
   border-radius: 10px;

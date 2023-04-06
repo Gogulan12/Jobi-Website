@@ -3,18 +3,21 @@ import React from "react";
 import circle1 from "../../Assets/listlogo1.svg";
 import circle2 from "../../Assets/listlogo2.svg";
 import "./ListingNavigation.css";
+import { Link } from "react-router-dom";
 
 export default function ListingNavigation() {
   return (
     <div className="listingNav">
       <nav>
-        <div className="listLogo">
-          <div className="listLogoCircle">
-            <img src={circle1} alt="" />
-            <img src={circle2} alt="" className="circle2" />
+        <Link to="/">
+          <div className="listLogo">
+            <div className="listLogoCircle">
+              <img src={circle1} alt="" />
+              <img src={circle2} alt="" className="circle2" />
+            </div>
+            <h2>jobi</h2>
           </div>
-          <h2>jobi</h2>
-        </div>
+        </Link>
 
         <div className="category">
           <div className="categoryContainer">

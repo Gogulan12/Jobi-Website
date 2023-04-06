@@ -17,7 +17,8 @@ function App() {
           <Route exact path="/listing">
             <JobListing />
           </Route>
-          <Route path="/listing/job">
+          <Route path="/listing/:id">
+            {/* /listing/:id */}
             <JobPage />
           </Route>
           <Route path="/404">

@@ -28,6 +28,15 @@
   display: flex;
 }
 
+/* a.topNavLeft {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00bf58;
+  text-decoration: none;
+} */
+
 .logo {
   font-size: 1.2rem;
   display: flex;
@@ -35,10 +44,14 @@
   margin-right: 20px;
   justify-content: center;
   align-items: center;
+  color: #005025;
+  /* margin-top: 23px; */
+  /* text-decoration: none; */
 }
 
 .logo h3 {
   margin-left: 5px;
+  /* text-decoration: none; */
 }
 .secondCircle {
   margin-left: -15px;

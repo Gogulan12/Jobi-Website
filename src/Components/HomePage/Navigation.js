@@ -1,41 +1,44 @@
 import React from "react";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
     <div className="navigation">
       <section className="topNav">
         <div className="topNavLeft">
-          <div className="logo">
-            <svg
-              width="28"
-              height="29"
-              viewBox="0 0 28 29"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="13.95"
-                cy="14.25"
-                r="13.95"
-                fill="#00D462"
-                fillOpacity="0.34"
-              />
-            </svg>
+          <Link to="/">
+            <div className="logo">
+              <svg
+                width="28"
+                height="29"
+                viewBox="0 0 28 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="13.95"
+                  cy="14.25"
+                  r="13.95"
+                  fill="#00D462"
+                  fillOpacity="0.34"
+                />
+              </svg>
 
-            <svg
-              className="secondCircle"
-              width="29"
-              height="29"
-              viewBox="0 0 29 29"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="14.45" cy="14.25" r="13.95" fill="#00D462" />
-            </svg>
+              <svg
+                className="secondCircle"
+                width="29"
+                height="29"
+                viewBox="0 0 29 29"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="14.45" cy="14.25" r="13.95" fill="#00D462" />
+              </svg>
 
-            <h3>jobi</h3>
-          </div>
+              <h3>jobi</h3>
+            </div>
+          </Link>
           <div className="search">
             <input type="text" placeholder="Search here..." />
             <select>
