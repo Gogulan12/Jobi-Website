@@ -98,19 +98,19 @@ export default function JobPostInfo() {
               <h3>Responsibilities</h3>
               <ul className="responsibilityList">
                 {job.responsibilities.map((respon) => (
-                  <li>{respon}</li>
+                  <li key={respon}>{respon}</li>
                 ))}
               </ul>
               <h3>Required Skills</h3>
               <ul className="requiredSkills">
                 {job.requiredSkills.map((skill) => (
-                  <li>{skill}</li>
+                  <li key={skill}>{skill}</li>
                 ))}
               </ul>
               <h3>Benefits:</h3>
               <ul className="benefitsList">
                 {job.benefits.map((benefit) => (
-                  <li>{benefit}</li>
+                  <li key={benefit}>{benefit}</li>
                 ))}
               </ul>
             </div>
@@ -156,7 +156,7 @@ export default function JobPostInfo() {
                     <li>Applications</li>
                     <li>UI/UX</li> */}
                     {job.keywords.map((keyword) => (
-                      <li>{keyword}</li>
+                      <li key={keyword}>{keyword}</li>
                     ))}
                   </ul>
                 </div>
