@@ -39,6 +39,8 @@ export default function AddJobPosting() {
     "POST"
   );
 
+  let today = new Date().toISOString().slice(0, 10);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // console.log(employer,minSalary,maxSalary,overview,description,responsibilities);
@@ -49,6 +51,7 @@ export default function AddJobPosting() {
       responsibilities,
       keywords,
       requiredSkills,
+      date: today,
       title,
       contractType: "Fulltime",
       description,
