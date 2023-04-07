@@ -62,7 +62,9 @@ export default function ListingNavigation() {
         </svg>
 
         <div className="listNavPosting">
-          <p className="posting">Post Job</p>
+          <Link to="/post">
+            <p className="posting">Post Job</p>
+          </Link>
           <p className="login">Login</p>
           <button>Hire Top Talents</button>
         </div>

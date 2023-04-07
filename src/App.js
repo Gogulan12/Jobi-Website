@@ -5,6 +5,7 @@ import Homepage from "./Pages/Homepage";
 import JobListing from "./Pages/JobListing";
 import JobPage from "./Pages/JobPage";
 import ErrorPage from "./Pages/ErrorPage";
+import AddJobPosting from "./Components/AddPosting/AddJobPosting";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/404">
             <ErrorPage />
+          </Route>
+          <Route path="/post">
+            <AddJobPosting />
           </Route>
         </Switch>
       </BrowserRouter>

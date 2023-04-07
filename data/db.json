@@ -31,7 +31,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "New York", "country": "United States" },
+      "location": {
+        "city": "New York",
+        "country": "United States"
+      },
       "overview": "Coca Cola is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -47,7 +50,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 50000, "min": 40000 }
+      "salary": {
+        "max": 50000,
+        "min": 40000
+      }
     },
     {
       "id": "2",
@@ -80,7 +86,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Chicago", "country": "United States" },
+      "location": {
+        "city": "Chicago",
+        "country": "United States"
+      },
       "overview": "Visa Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -96,7 +105,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 80000, "min": 50000 }
+      "salary": {
+        "max": 80000,
+        "min": 50000
+      }
     },
     {
       "id": "3",
@@ -129,7 +141,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Boston", "country": "United States" },
+      "location": {
+        "city": "Boston",
+        "country": "United States"
+      },
       "overview": "Salesforce Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -145,7 +160,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 70000, "min": 60000 }
+      "salary": {
+        "max": 70000,
+        "min": 60000
+      }
     },
     {
       "id": "4",
@@ -178,7 +196,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Dallas", "country": "United States" },
+      "location": {
+        "city": "Dallas",
+        "country": "United States"
+      },
       "overview": "Amazon.com Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -194,7 +215,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 75000, "min": 55000 }
+      "salary": {
+        "max": 75000,
+        "min": 55000
+      }
     },
     {
       "id": "5",
@@ -227,7 +251,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "New York", "country": "United States" },
+      "location": {
+        "city": "New York",
+        "country": "United States"
+      },
       "overview": "Bank of America Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -243,7 +270,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 90000, "min": 70000 }
+      "salary": {
+        "max": 90000,
+        "min": 70000
+      }
     },
     {
       "id": "6",
@@ -276,7 +306,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "New York", "country": "United States" },
+      "location": {
+        "city": "New York",
+        "country": "United States"
+      },
       "overview": "Jaguar Land Rover is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -292,7 +325,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 90000, "min": 80000 }
+      "salary": {
+        "max": 90000,
+        "min": 80000
+      }
     },
     {
       "id": "7",
@@ -325,7 +361,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Phoenix", "country": "United States" },
+      "location": {
+        "city": "Phoenix",
+        "country": "United States"
+      },
       "overview": "Mircosoft Corporation is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -341,7 +380,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 75000, "min": 65000 }
+      "salary": {
+        "max": 75000,
+        "min": 65000
+      }
     },
     {
       "id": "8",
@@ -374,7 +416,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "San Francisco", "country": "United States" },
+      "location": {
+        "city": "San Francisco",
+        "country": "United States"
+      },
       "overview": "Google Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -390,7 +435,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 100000, "min": 90000 }
+      "salary": {
+        "max": 100000,
+        "min": 90000
+      }
     },
     {
       "id": "9",
@@ -423,7 +471,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Miami", "country": "United States" },
+      "location": {
+        "city": "Miami",
+        "country": "United States"
+      },
       "overview": "Samsung Electronics Co. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -439,7 +490,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 50000, "min": 40000 }
+      "salary": {
+        "max": 50000,
+        "min": 40000
+      }
     },
     {
       "id": "10",
@@ -472,7 +526,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Los Angeles", "country": "United States" },
+      "location": {
+        "city": "Los Angeles",
+        "country": "United States"
+      },
       "overview": "The Walt Disney Company is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -488,7 +545,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 95000, "min": 80000 }
+      "salary": {
+        "max": 95000,
+        "min": 80000
+      }
     },
     {
       "id": "11",
@@ -521,7 +581,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "New York", "country": "United States" },
+      "location": {
+        "city": "New York",
+        "country": "United States"
+      },
       "overview": "Amazon.com Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -537,7 +600,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 65000, "min": 60000 }
+      "salary": {
+        "max": 65000,
+        "min": 60000
+      }
     },
     {
       "id": "12",
@@ -570,7 +636,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Los Angeles", "country": "United States" },
+      "location": {
+        "city": "Los Angeles",
+        "country": "United States"
+      },
       "overview": "Bank of America Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -586,7 +655,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 80000, "min": 50000 }
+      "salary": {
+        "max": 80000,
+        "min": 50000
+      }
     },
     {
       "id": "13",
@@ -619,7 +691,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Boston", "country": "United States" },
+      "location": {
+        "city": "Boston",
+        "country": "United States"
+      },
       "overview": "Mircosoft Corporation is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -635,7 +710,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 75000, "min": 70000 }
+      "salary": {
+        "max": 75000,
+        "min": 70000
+      }
     },
     {
       "id": "14",
@@ -668,7 +746,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Chicago", "country": "United States" },
+      "location": {
+        "city": "Chicago",
+        "country": "United States"
+      },
       "overview": "Jaguar Land Rover is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -684,7 +765,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 70000, "min": 65000 }
+      "salary": {
+        "max": 70000,
+        "min": 65000
+      }
     },
     {
       "id": "15",
@@ -717,7 +801,10 @@
         "Git",
         "version control"
       ],
-      "location": { "city": "Dallas", "country": "United States" },
+      "location": {
+        "city": "Dallas",
+        "country": "United States"
+      },
       "overview": "Google Inc. is seeking a talented front-end developer to join our growing team.",
       "requiredSkills": [
         "Proficiency in HTML, CSS, and JavaScript.",
@@ -733,7 +820,10 @@
         "Write clean, modular, and well-documented code.",
         "Optimize web pages for maximum speed and scalability."
       ],
-      "salary": { "max": 40000, "min": 30000 }
+      "salary": {
+        "max": 40000,
+        "min": 30000
+      }
     }
   ]
 }
