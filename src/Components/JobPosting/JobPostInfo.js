@@ -3,12 +3,37 @@ import cocacola from "../../Assets/coca-cola.svg";
 import "./JobPostInfo.css";
 
 import { useParams } from "react-router-dom";
-import { useFetch } from "../../hooks/useFetch";
+import { useEffect, useState } from "react";
+// import { useFetch } from "../../hooks/useFetch";
+import { projectFirestore } from "../../firebase/config";
 
 export default function JobPostInfo() {
   const { id } = useParams();
-  const url = "http://localhost:3000/jobsData/" + id;
-  const { error, isPending, data: job } = useFetch(url);
+  // const url = "http://localhost:3000/jobsData/" + id;
+  // const { error, isPending, data: job } = useFetch(url);
+
+  const [job, setJob] = useState(null);
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    setIsPending(true);
+
+    projectFirestore
+      .collection("jobsData")
+      .doc(id)
+      .get()
+      .then((doc) => {
+        // console.log(doc);
+        if (doc.exists) {
+          setIsPending(false);
+          setJob(doc.data());
+        } else {
+          setIsPending(false);
+          setError("Cound not find that recipe");
+        }
+      });
+  }, []);
 
   return (
     <div>
@@ -129,11 +154,11 @@ export default function JobPostInfo() {
                   <div className="infoleft">
                     <h4>Salary</h4>
                     <p>
-                      {job.salary.min}-{job.salary.max}/year
+                      {job.salary[0].min}-{job.salary[0].max}/year
                     </p>
                     <h4>Location</h4>
                     <p>
-                      {job.location.country}, {job.location.city}
+                      {job.location[0].country}, {job.location[0].city}
                     </p>
                     <h4>Date</h4>
                     <p>{job.date}</p>

@@ -38,12 +38,12 @@ export default function ListingIndivid({ jobs }) {
           </Link>
 
           <p>
-            ${job.salary.min}-${job.salary.max} <span>/ year</span>
+            ${job.salary[0].min}-${job.salary[0].max} <span>/ year</span>
           </p>
 
           <div className="placeAndApply">
             <h4 className="jobLocation">
-              {job.location.country}, {job.location.city}
+              {job.location[0].country}, {job.location[0].city}
             </h4>
             <button>apply</button>
           </div>

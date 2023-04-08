@@ -3,36 +3,46 @@ import "./ListingCenter.css";
 
 import Logo from "../../Assets/coca-cola.svg";
 import { useState } from "react";
-import { useFetch } from "../../hooks/useFetch";
+// import { useFetch } from "../../hooks/useFetch";
+
+import { projectFirestore } from "../../firebase/config";
+import { useEffect } from "react";
+
 import ListingIndivid from "./ListingIndivid";
 
 export default function ListingCenter() {
-  // const [events, setEvents] = useState([
-  //   {
-  //     image: Logo,
-  //     id: 1,
-  //     class: "Fulltime",
-  //     title: "Lead designer & expert in maya 3D",
-  //     salarymin: 300,
-  //     salarymax: 450,
-  //     per: "week",
-  //     Country: "USA",
-  //     State: "California",
-  //   },
-  //   {
-  //     image: Logo,
-  //     id: 2,
-  //     class: "Fulltime",
-  //     title: "Lead designer & expert in maya 3D",
-  //     salarymin: 300,
-  //     salarymax: 450,
-  //     per: "week",
-  //     Country: "USA",
-  //     State: "California",
-  //   },
-  // ]);
+  // const { data, isPending, error } = useFetch("http://localhost:3000/jobsData");
+  const [data, setData] = useState(null);
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(false);
 
-  const { data, isPending, error } = useFetch("http://localhost:3000/jobsData");
+  useEffect(() => {
+    setIsPending(true);
+
+    projectFirestore
+      .collection("jobsData")
+      .get()
+      .then((snapshot) => {
+        // console.log(snapshot);
+        if (snapshot.empty) {
+          setError("No recipies to load");
+          setIsPending(false);
+        } else {
+          let results = [];
+          snapshot.docs.forEach((doc) => {
+            // console.log(doc);
+            results.push({ id: doc.id, ...doc.data() });
+          });
+          setData(results);
+          // console.log(results);
+          setIsPending(false);
+        }
+      })
+      .catch((err) => {
+        setError(err.message);
+        setIsPending(false);
+      });
+  }, []);
 
   return (
     <div>
