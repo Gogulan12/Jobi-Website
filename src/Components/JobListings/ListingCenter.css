@@ -121,6 +121,24 @@
   text-transform: uppercase;
 }
 
+.logoAndBookmark .tags {
+  display: flex;
+  gap: 10px;
+}
+
+.logoAndBookmark .delete {
+  /* position: absolute;
+  top: 10px;
+  right: 10px; */
+  /* width: 10px; */
+  cursor: pointer;
+  /* filter: invert(60%); */
+}
+
+.logoAndBookmark .delete {
+  width: 20px;
+}
+
 /* /////////////////////Page count for Center /////////////// */
 
 .pageCount {

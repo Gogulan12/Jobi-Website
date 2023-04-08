@@ -3,8 +3,10 @@ import React, { useEffect } from "react";
 import "./AddJobPosting.css";
 
 import { useState, useRef } from "react";
-import { useFetch } from "../../hooks/useFetch";
+// import { useFetch } from "../../hooks/useFetch";
 import { useHistory } from "react-router-dom";
+
+import { projectFirestore } from "../../firebase/config";
 
 export default function AddJobPosting() {
   const [employer, setEmployer] = useState("");
@@ -34,30 +36,38 @@ export default function AddJobPosting() {
   ////////////////////////////////////////////////
   const history = useHistory();
 
-  const { postData, data, error } = useFetch(
-    "http://localhost:3000/jobsData",
-    "POST"
-  );
+  // const { postData, data, error } = useFetch(
+  //   "http://localhost:3000/jobsData",
+  //   "POST"
+  // );
 
   let today = new Date().toISOString().slice(0, 10);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // console.log(employer,minSalary,maxSalary,overview,description,responsibilities);
-    postData({
+    const doc = {
       employer,
-      salary: { min: minSalary, max: maxSalary },
+      salary: [{ min: minSalary, max: maxSalary }],
       overview,
       responsibilities,
       keywords,
       requiredSkills,
       date: today,
       title,
+      image:
+        "https://t3.ftcdn.net/jpg/05/27/49/44/360_F_527494416_7PWpMBqkWQarxhOgD1vIDzhDxizP1cQd.jpg",
       contractType: "Fulltime",
       description,
       benefits,
-      location: { city: city, country: country },
-    });
+      location: [{ city: city, country: country }],
+    };
+    try {
+      await projectFirestore.collection("jobsData").add(doc);
+      history.push("/listing");
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   const handleAdd = (e) => {
@@ -108,11 +118,11 @@ export default function AddJobPosting() {
   };
 
   // redirect the user when we get data response
-  useEffect(() => {
-    if (data) {
-      history.push("/listing");
-    }
-  }, [data]);
+  // useEffect(() => {
+  //   if (data) {
+  //     history.push("/listing");
+  //   }
+  // }, [data]);
 
   return (
     <div className="create">
