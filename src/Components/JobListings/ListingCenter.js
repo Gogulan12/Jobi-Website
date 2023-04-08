@@ -19,10 +19,8 @@ export default function ListingCenter() {
   useEffect(() => {
     setIsPending(true);
 
-    projectFirestore
-      .collection("jobsData")
-      .get()
-      .then((snapshot) => {
+    const unsub = projectFirestore.collection("jobsData").onSnapshot(
+      (snapshot) => {
         // console.log(snapshot);
         if (snapshot.empty) {
           setError("No recipies to load");
@@ -37,11 +35,18 @@ export default function ListingCenter() {
           // console.log(results);
           setIsPending(false);
         }
-      })
-      .catch((err) => {
+      },
+      (err) => {
         setError(err.message);
         setIsPending(false);
-      });
+      }
+    );
+    // .catch((err) => {
+    //   setError(err.message);
+    //   setIsPending(false);
+    // });
+
+    return () => unsub();
   }, []);
 
   return (
