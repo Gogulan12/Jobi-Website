@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 export default function ListingIndivid({ jobs }) {
+  if (jobs.length === 0) {
+    return <div className="error">No Job Postings to load...</div>;
+  }
+
   return (
     <div className="job-list">
       {jobs.map((job) => (

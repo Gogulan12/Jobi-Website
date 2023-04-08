@@ -6,6 +6,7 @@ import JobListing from "./Pages/JobListing";
 import JobPage from "./Pages/JobPage";
 import ErrorPage from "./Pages/ErrorPage";
 import AddJobPosting from "./Components/AddPosting/AddJobPosting";
+import Search from "./Components/Search/Search";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <Route path="/listing/:id">
             {/* /listing/:id */}
             <JobPage />
+          </Route>
+          <Route path="/search">
+            <Search />
           </Route>
           <Route path="/404">
             <ErrorPage />

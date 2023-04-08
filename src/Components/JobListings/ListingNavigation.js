@@ -1,11 +1,21 @@
 import React from "react";
+import { useState } from "react";
 
 import circle1 from "../../Assets/listlogo1.svg";
 import circle2 from "../../Assets/listlogo2.svg";
 import "./ListingNavigation.css";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 export default function ListingNavigation() {
+  const [term, setTerm] = useState("");
+  const history = useHistory();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    history.push(`/search?q=${term}`);
+  };
+
   return (
     <div className="listingNav">
       <nav>
@@ -73,21 +83,28 @@ export default function ListingNavigation() {
       <section className="jobListingSearch">
         <h1>Job Listing</h1>
         <h5>We delivered blazing fast & striking work solution</h5>
-        <div className="fullSearchBar">
-          <div className="fullInput">
-            <label htmlFor="title">What are you looking for? </label>
-            <input type="text" placeholder="UI Designer" />
-          </div>
-          <div className="fullInputCategory">
-            <div className="fullInputCategoryContainer">
-              <label htmlFor="category">Category</label>
-              <select name="category" id="category">
-                <option value="#">Web Design</option>
-              </select>
+        <form onSubmit={handleSubmit}>
+          <div className="fullSearchBar">
+            <div className="fullInput">
+              <label htmlFor="title">What are you looking for? </label>
+              <input
+                type="text"
+                placeholder="UI Designer"
+                onChange={(e) => setTerm(e.target.value)}
+                required
+              />
             </div>
+            <div className="fullInputCategory">
+              <div className="fullInputCategoryContainer">
+                <label htmlFor="category">Category</label>
+                <select name="category" id="category">
+                  <option value="#">Web Design</option>
+                </select>
+              </div>
+            </div>
+            <button>SEARCH</button>
           </div>
-          <button>SEARCH</button>
-        </div>
+        </form>
       </section>
     </div>
   );
