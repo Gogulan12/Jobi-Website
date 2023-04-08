@@ -30,10 +30,16 @@ export default function JobPostInfo() {
           setJob(doc.data());
         } else {
           setIsPending(false);
-          setError("Cound not find that recipe");
+          setError("Cound not find that job");
         }
       });
-  }, []);
+  }, [id]);
+
+  // const handleClick = () => {
+  //   projectFirestore.collection("jobsData").doc(id).update({
+  //     title: "Something Different",
+  //   });
+  // };
 
   return (
     <div>
@@ -189,6 +195,7 @@ export default function JobPostInfo() {
                 <div className="applyButton">
                   <button>Apply Now</button>
                 </div>
+                {/* <button onClick={handleClick}>Update Post</button> */}
               </div>
             </div>
           </>
