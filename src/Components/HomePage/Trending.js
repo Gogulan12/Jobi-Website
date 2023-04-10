@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 import ui from "../../Assets/ui.svg";
 import dev from "../../Assets/dev.svg";
 import market from "../../Assets/market.svg";
