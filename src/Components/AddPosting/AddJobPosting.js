@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+// import React, { useEffect } from "react";
 
 import "./AddJobPosting.css";
 
@@ -11,7 +11,7 @@ import { projectFirestore } from "../../firebase/config";
 export default function AddJobPosting() {
   const [employer, setEmployer] = useState("");
   const [title, setTitle] = useState("");
-  const [contractType, setContractType] = useState("");
+  // const [contractType, setContractType] = useState("");
   const [minSalary, setMinSalary] = useState("");
   const [maxSalary, setMaxSalary] = useState("");
   const [overview, setOverview] = useState("");
