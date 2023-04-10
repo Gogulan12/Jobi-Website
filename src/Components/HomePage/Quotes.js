@@ -8,15 +8,15 @@ import image5 from "../../Assets/portrait-5.jpg";
 import "./Quote.css";
 
 export default function Quotes() {
-  const [count, setCount] = useState(0);
-  const [active, setActive] = useState("false");
+  // const [count, setCount] = useState(0);
+  // const [active, setActive] = useState(false);
 
   let quoteBox = useRef(null);
   // const gap = 16;
 
-  useEffect(() => {
-    setCount((v) => v + 1);
-  }, []);
+  // useEffect(() => {
+  //   setCount((v) => v + 1);
+  // }, []);
 
   const leftScroll = (e) => {
     // e.preventDefault();

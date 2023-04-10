@@ -40,6 +40,7 @@ export default function ListingIndivid({ jobs }) {
               <img
                 className="delete"
                 src={Trashcan}
+                alt="trashcan"
                 onClick={() => handleClick(job.id)}
               />
             </div>

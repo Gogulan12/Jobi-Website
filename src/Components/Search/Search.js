@@ -1,7 +1,7 @@
 import React from "react";
 import ListingNavigation from "../JobListings/ListingNavigation";
 import { useLocation } from "react-router-dom";
-import { useFetch } from "../../hooks/useFetch";
+// import { useFetch } from "../../hooks/useFetch";
 import ListingIndivid from "../JobListings/ListingIndivid";
 import { useEffect, useState } from "react";
 import { projectFirestore } from "../../firebase/config";

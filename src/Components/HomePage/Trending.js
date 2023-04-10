@@ -9,14 +9,14 @@ import account from "../../Assets/accounting.svg";
 import "./Trending.css";
 
 export default function Trending() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   let box = useRef(null);
   const gap = 16;
 
-  useEffect(() => {
-    setCount((v) => v + 1);
-  }, []);
+  // useEffect(() => {
+  //   setCount((v) => v + 1);
+  // }, []);
 
   const leftScroll = (e) => {
     // e.preventDefault();
@@ -123,7 +123,7 @@ export default function Trending() {
       <section className="second">
         <div className="marketplaceTitle">
           <h2>Explore the marketplace.</h2>
-          <a href="#">
+          <a href="/">
             Explore all fields{" "}
             <svg
               width="8"

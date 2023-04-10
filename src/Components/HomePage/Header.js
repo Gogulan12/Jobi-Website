@@ -26,7 +26,7 @@ export default function Header() {
         </div>
       </div>
       <div className="rightSide">
-        <img src={header} alt="image" />
+        <img src={header} alt="person on laptop" />
       </div>
     </div>
   );

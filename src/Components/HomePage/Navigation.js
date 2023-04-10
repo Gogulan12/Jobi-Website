@@ -60,7 +60,7 @@ export default function Navigation() {
             <li>Pages</li>
           </ul>
 
-          <a href="#">Login</a>
+          <a href="/">Login</a>
           <button>Register</button>
         </div>
       </section>

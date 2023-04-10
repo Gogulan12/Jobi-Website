@@ -1,5 +1,5 @@
 import React from "react";
-import cocacola from "../../Assets/coca-cola.svg";
+// import cocacola from "../../Assets/coca-cola.svg";
 import "./JobPostInfo.css";
 
 import { useParams } from "react-router-dom";

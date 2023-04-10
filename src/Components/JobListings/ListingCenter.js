@@ -1,7 +1,7 @@
 import React from "react";
 import "./ListingCenter.css";
 
-import Logo from "../../Assets/coca-cola.svg";
+// import Logo from "../../Assets/coca-cola.svg";
 import { useState } from "react";
 // import { useFetch } from "../../hooks/useFetch";
 

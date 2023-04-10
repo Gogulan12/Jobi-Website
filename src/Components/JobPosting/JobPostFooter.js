@@ -10,10 +10,10 @@ export default function JobPostFooter() {
             <p>Sign up and start find you job or talents.</p>
           </div>
           <div className="right">
-            <a href="#" className="look">
+            <a href="/" className="look">
               Looking for job?
             </a>
-            <a href="#" className="post">
+            <a href="/" className="post">
               Post a Job
             </a>
           </div>
