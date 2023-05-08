@@ -43,9 +43,9 @@ export default function Navigation() {
             <input type="text" placeholder="Search here..." />
             <select>
               <option value="talent">Talents</option>
-              <option value="option2">option2</option>
-              <option value="option3">option3</option>
-              <option value="option4">option4</option>
+              <option value="option2">Location</option>
+              <option value="option3">Position</option>
+              <option value="option4">Recent</option>
             </select>
           </div>
         </div>
