@@ -14,6 +14,10 @@
 .navigation {
   margin: 0 auto;
   max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
 }
 
 .topNav {
@@ -164,4 +168,75 @@ nav a {
 
 .listOfOptions ul .more svg {
   margin-left: 6px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+@media (max-width: 1090px) {
+  .hamburger {
+    display: block;
+    z-index: 20;
+  }
+
+  .hamburger.navactive .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.navactive .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.navactive .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navUnder {
+    position: fixed;
+    left: 100%;
+    top: 250px;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 10;
+    background-color: rgb(167, 235, 167);
+  }
+
+  .topNavRight {
+    position: fixed;
+    left: 100%;
+    top: 70px;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 10;
+    background-color: rgb(167, 235, 167);
+  }
+
+  .listOfOptions ul {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .navUnder.navactive,
+  .topNavRight.navactive {
+    left: 0;
+  }
 }
