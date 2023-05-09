@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .navigation {
@@ -186,7 +187,7 @@ nav a {
   background-color: black;
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1150px) {
   .hamburger {
     display: block;
     z-index: 20;
@@ -203,9 +204,9 @@ nav a {
   }
 
   .navUnder {
-    position: fixed;
+    position: absolute;
     left: 100%;
-    top: 250px;
+    top: 388px;
     gap: 0;
     display: flex;
     flex-direction: column;
@@ -214,12 +215,18 @@ nav a {
     transition: 0.3s;
     z-index: 10;
     background-color: rgb(167, 235, 167);
+    border: none;
+  }
+
+  .navUnder .listOfOptions ul li {
+    color: black;
+    padding: 6px 0px;
   }
 
   .topNavRight {
-    position: fixed;
+    position: absolute;
     left: 100%;
-    top: 70px;
+    top: 80px;
     gap: 0;
     display: flex;
     flex-direction: column;
@@ -227,11 +234,21 @@ nav a {
     text-align: center;
     transition: 0.3s;
     z-index: 10;
-    background-color: rgb(167, 235, 167);
+    background-color: #a7eba7;
+    border: none;
   }
 
   .listOfOptions ul {
     margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .topNavRight {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .topNavRight ul {
     display: flex;
     flex-direction: column;
   }
