@@ -88,3 +88,19 @@
   margin-top: 7px;
   padding-right: 20px;
 }
+
+@media (max-width: 880px) {
+  .Header {
+    flex-direction: column;
+  }
+
+  .Header .leftSide {
+    width: 80%;
+    margin-right: 70px;
+    margin-left: 40px;
+  }
+
+  .Header .rightSide {
+    display: none;
+  }
+}

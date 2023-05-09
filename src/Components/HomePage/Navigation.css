@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .navigation {
@@ -26,6 +26,7 @@
   margin-top: 60px;
   margin: 20px 28px;
   justify-content: space-between;
+  margin-left: 0px;
 }
 
 .topNavLeft,
@@ -204,7 +205,7 @@ nav a {
   }
 
   .navUnder {
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 388px;
     gap: 0;
@@ -224,7 +225,7 @@ nav a {
   }
 
   .topNavRight {
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 80px;
     gap: 0;
@@ -255,5 +256,11 @@ nav a {
   .navUnder.navactive,
   .topNavRight.navactive {
     left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .topNavLeft .search {
+    display: none;
   }
 }
