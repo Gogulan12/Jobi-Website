@@ -251,3 +251,66 @@
   font-family: "Gordita", sans-serif;
   color: rgba(95, 94, 94, 0.555);
 }
+
+@media (max-width: 1230px) {
+  .trendingTitle {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  #serviceWrapper {
+    max-width: 800px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+  }
+
+  /* #carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  .imageBox {
+    width: 200px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 800px) {
+  .trendingTitle,
+  #serviceWrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .trendingTitle,
+  #serviceWrapper {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .trendingTitle h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .trendingTitle,
+  #serviceWrapper {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .imageBox {
+    width: 150px;
+    height: 180px;
+  }
+
+  .imageBox p {
+    font-size: 16px;
+  }
+}
