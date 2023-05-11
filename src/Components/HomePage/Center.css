@@ -450,3 +450,47 @@
   font-size: 0.7rem;
   padding-top: 20px;
 }
+
+@media (max-width: 1250px) {
+  .centerSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centerSearch .left {
+    display: none;
+  }
+  .centerSearch .right {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .centerSearch .right h2 {
+    font-size: 2.5rem;
+  }
+
+  .accord button,
+  .accord p,
+  .accordThree button,
+  .accordThree p {
+    font-size: 1rem;
+  }
+
+  .panel {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .centerSearch .right h2 {
+    font-size: 1.5rem;
+  }
+  .accord button,
+  .accord p,
+  .accordThree button,
+  .accordThree p {
+    font-size: 0.8rem;
+  }
+}

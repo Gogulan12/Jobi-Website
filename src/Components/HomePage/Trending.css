@@ -212,7 +212,7 @@
 
 .exploreList ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .exploreList ul li {
@@ -223,7 +223,7 @@
   /* justify-content: center; */
   align-items: center;
   padding: 50px 40px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-radius: 60px;
   cursor: pointer;
 }

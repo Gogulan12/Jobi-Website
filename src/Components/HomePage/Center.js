@@ -149,8 +149,10 @@ export default function Center() {
                 className="panel"
                 ref={panel}
                 style={{
-                  height: isActive1 ? "0px" : "100px",
-                  marginBottom: isActive1 ? "0px" : "20px",
+                  height: isActive1 ? "0px" : "fit-content",
+                  // marginBottom: isActive1 ? "0px" : "20px",
+                  display: isActive1 ? "none" : "block",
+                  paddingBottom: isActive1 ? "0px" : "20px",
                 }}
               >
                 <p>
@@ -171,8 +173,10 @@ export default function Center() {
                 className="panel"
                 ref={panel}
                 style={{
-                  height: isActive2 ? "0px" : "100px",
-                  marginBottom: isActive2 ? "0px" : "20px",
+                  height: isActive2 ? "0px" : "fit-content",
+                  // marginBottom: isActive2 ? "0px" : "20px",
+                  display: isActive2 ? "none" : "block",
+                  paddingBottom: isActive2 ? "0px" : "20px",
                 }}
               >
                 <p>
@@ -182,7 +186,7 @@ export default function Center() {
               </div>
             </div>
 
-            <div className=" accordThree">
+            <div className="accordThree">
               <button
                 onClick={ToggleClass3}
                 className={`accordion ${isActive3 ? null : "active"}`}
@@ -193,8 +197,10 @@ export default function Center() {
                 className="panel"
                 ref={panel}
                 style={{
-                  height: isActive3 ? "0px" : "100px",
-                  marginBottom: isActive3 ? "0px" : "20px",
+                  height: isActive3 ? "0px" : "fit-content",
+                  // marginBottom: isActive3 ? "0px" : "20px",
+                  display: isActive3 ? "none" : "block",
+                  paddingBottom: isActive3 ? "0px" : "20px",
                 }}
               >
                 <p>
