@@ -169,3 +169,95 @@
   border-radius: 50%;
   background-color: #00bf58;
 } */
+
+@media (max-width: 1220px) {
+  .leftArrow,
+  .rightArrow {
+    display: none;
+  }
+
+  #quoteCarousel {
+    overflow: visible;
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  /* .quoteSection {
+    display: flex;
+  } */
+
+  .quoteCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quoteSection {
+    justify-content: center;
+  }
+  #quoteContent {
+    display: block;
+  }
+
+  /* .quoteList {
+    flex-direction: column;
+    display: block;
+  } */
+
+  .quote3,
+  .quote4,
+  .quote5 {
+    display: none;
+  }
+  .quoteImages {
+    justify-content: space-evenly;
+  }
+
+  .quoteImages img:nth-child(3),
+  .quoteImages img:nth-child(4),
+  .quoteImages img:nth-child(5) {
+    display: none;
+  }
+
+  .quoteCenter h2 {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+
+  .quote {
+    width: 100%;
+  }
+
+  .quote h3 {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  #quoteWrapper {
+    width: 100%;
+    width: 250px;
+    /* margin: 0px 20px; */
+  }
+  #quoteCarousel {
+    margin: 0 20pxs;
+  }
+
+  .quote h3 {
+    font-size: 0.8rem;
+  }
+  .quote h3 br {
+    display: none;
+  }
+
+  .quoteCenter h2 {
+    font-size: 1.5rem;
+  }
+
+  .quoteImages {
+    width: 300px;
+  }
+}
+
+@media (max-width: 470px) {
+}
