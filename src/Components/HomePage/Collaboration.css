@@ -208,3 +208,62 @@
 .trendingSkillsList .trendMain {
   color: #00bf58;
 }
+
+@media (max-width: 1220px) {
+  .collabImgRight {
+    display: none;
+  }
+  .collabPoster {
+    /* width: 100%; */
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .collabImgLeft {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .collabImgLeft h2 {
+    font-size: 3rem;
+  }
+
+  .collabImgLeft h2 br {
+    display: none;
+  }
+
+  /* Trending list  */
+
+  .trendingSkillsList {
+    /* width: 100%; */
+    margin: 50px;
+  }
+}
+
+@media (max-width: 760px) {
+  .trendingSkillsList {
+    display: block;
+  }
+  .bottomTrendingList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+  }
+
+  .trendingSkillsList h3 {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 370px) {
+  .collabImgLeft h2 {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .collabImgLeft p {
+    font-size: 0.9rem;
+  }
+}
