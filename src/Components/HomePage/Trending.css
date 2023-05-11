@@ -276,6 +276,21 @@
     width: 200px;
     height: 220px;
   }
+
+  .marketplaceTitle {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .exploreList {
+    width: 800px;
+  }
+
+  .exploreList ul li:nth-child(5),
+  .exploreList ul li:nth-child(6) {
+    display: none;
+  }
 }
 
 @media (max-width: 800px) {
@@ -283,6 +298,30 @@
   #serviceWrapper {
     width: 600px;
     margin: 0 auto;
+  }
+
+  .marketplaceTitle {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .exploreList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+  }
+
+  .exploreList ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .exploreList ul li {
+    width: 200px;
   }
 }
 
@@ -295,6 +334,38 @@
 
   .trendingTitle h2 {
     font-size: 1.5rem;
+  }
+
+  .marketplaceTitle {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .marketplaceTitle h2,
+  .marketplaceTitle a {
+    font-size: 1.5rem;
+  }
+  .marketplaceTitle a {
+    font-size: 1rem;
+  }
+
+  .exploreList {
+    width: 400px;
+  }
+
+  .exploreList ul li {
+    width: 150px;
+    height: 200px;
+    font-size: 0.8rem;
+  }
+  .exploreList ul li h4,
+  .exploreList ul li img {
+    margin: 5px 0;
+    font-size: 10px;
+    /* padding: ; */
+
+    text-align: center;
   }
 }
 
@@ -312,5 +383,31 @@
 
   .imageBox p {
     font-size: 16px;
+  }
+
+  .marketplaceTitle {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* 
+  .marketplaceTitle h2,
+  .marketplaceTitle a {
+    font-size: 16px;
+  } */
+
+  .exploreList {
+    width: 300px;
+  }
+
+  .exploreList ul {
+    gap: 10px;
+  }
+
+  .exploreList ul li {
+    width: 140px;
+    height: 200px;
+    font-size: 10px;
+    /* width: 100%; */
   }
 }

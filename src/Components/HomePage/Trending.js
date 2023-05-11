@@ -122,7 +122,10 @@ export default function Trending() {
       </section>
       <section className="second">
         <div className="marketplaceTitle">
-          <h2>Explore the marketplace.</h2>
+          <h2>
+            Explore the <br />
+            marketplace.
+          </h2>
           <a href="/">
             Explore all fields{" "}
             <svg

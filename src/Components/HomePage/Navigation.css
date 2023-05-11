@@ -22,6 +22,10 @@
   padding: 0 24px;
 }
 
+.navigationContent {
+  width: 100%;
+}
+
 .topNav {
   display: flex;
   margin-top: 60px;

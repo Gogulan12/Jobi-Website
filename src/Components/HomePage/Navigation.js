@@ -12,7 +12,7 @@ export default function Navigation() {
 
   return (
     <div className="navigation">
-      <div>
+      <div className="navigationContent">
         <section className="topNav">
           <div className="topNavLeft">
             <Link to="/">
