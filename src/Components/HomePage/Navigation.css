@@ -20,6 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  /* overflow-x: hidden; */
 }
 
 .navigationContent {
@@ -210,7 +211,7 @@ nav a {
   }
 
   .navUnder {
-    position: fixed;
+    position: absolute;
     left: 100%;
     top: 388px;
     gap: 0;
@@ -222,6 +223,11 @@ nav a {
     z-index: 10;
     background-color: rgb(167, 235, 167);
     border: none;
+    /* overflow-x: hidden; */
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
   }
 
   .navUnder .listOfOptions ul li {
@@ -230,7 +236,7 @@ nav a {
   }
 
   .topNavRight {
-    position: fixed;
+    position: absolute;
     left: 100%;
     top: 80px;
     gap: 0;
@@ -242,6 +248,11 @@ nav a {
     z-index: 10;
     background-color: #a7eba7;
     border: none;
+    /* overflow-x: hidden; */
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
   }
 
   .listOfOptions ul {
@@ -261,6 +272,10 @@ nav a {
   .navUnder.navactive,
   .topNavRight.navactive {
     left: 0;
+    /* display: flex;
+    transition: 0.3s ease-in; */
+    visibility: visible;
+    opacity: 1;
   }
 }
 
