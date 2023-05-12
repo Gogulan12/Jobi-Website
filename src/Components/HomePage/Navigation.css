@@ -272,10 +272,11 @@ nav a {
   .navUnder.navactive,
   .topNavRight.navactive {
     left: 0;
-    /* display: flex;
+    /* display: flex; 
     transition: 0.3s ease-in; */
     visibility: visible;
     opacity: 1;
+    /* position: absolute; */
   }
 }
 
